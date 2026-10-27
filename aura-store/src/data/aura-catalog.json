@@ -1,0 +1,1412 @@
+{
+  "store": {
+    "brand": "AURA Living & Apparel",
+    "currency": "USD",
+    "locale": "en-US",
+    "activeCampaign": {
+      "campaignId": "vault-release-drop-04",
+      "name": "Vault Release: Collector Curation",
+      "offerExpiryCountdown": "02d 14h 42m 06s",
+      "freeShippingThreshold": 250.0
+    }
+  },
+  "products": [
+    {
+      "id": "AURA-PROD-001",
+      "slug": "soren-pleated-linen-trench",
+      "name": "Soren Pleated Linen Trench",
+      "edition": "Atelier Archive No. 04 / Edition of 180",
+      "brand": "AURA Atelier",
+      "category": "Outerwear & Tailoring",
+      "shortDescription": "Heavyweight Normandy flax trench with an articulated back inverted box pleat.",
+      "fullDescription": "Designed with an intentionally generous, drop-shoulder silhouette inspired by mid-century Parisian artist smocks. Features removable self-fabric belt with wrapped horn buckle, storm flap with concealed matte brass hardware snap, and internal silk-bound seams for zero friction layering. 100% Traceable Normandy cropped flax, closed-loop water recapture.",
+      "price": 420.0,
+      "originalPrice": 420.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 128,
+      "badges": [
+        "AURA ATELIER EDITION",
+        "CORE DROP",
+        "ARCHIVE NO. 04"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": true
+      },
+      "stockNotice": "Only 3 remaining in Size M for current production run",
+      "colors": [
+        {
+          "name": "Oatmeal Linen (Core)",
+          "hex": "#D8CAB8",
+          "selected": true
+        },
+        {
+          "name": "Raw Ecru",
+          "hex": "#EFECE6",
+          "selected": false
+        },
+        {
+          "name": "Obsidian Charcoal",
+          "hex": "#1E1E1E",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "provenance": "100% Oeko-Tex Normandy Flax, 380 GSM. Milled in Northern France, single-tailor stitched in Paris Atelier.",
+      "images": {
+        "primary": "SCREEN_14:plate_i_architectural_drape.png",
+        "gallery": [
+          "SCREEN_14:plate_i_architectural_drape.png",
+          "SCREEN_14:plate_ii_accordion_back_pleating.png",
+          "SCREEN_14:plate_iii_380gsm_flax_buffalo_horn_button.png",
+          "SCREEN_14:plate_iv_in_situ_tribeca_streetstyle.png"
+        ],
+        "swatchTexture": "SCREEN_18:material_specification_swatch.png"
+      }
+    },
+    {
+      "id": "AURA-PROD-002",
+      "slug": "kanso-ribbed-merino-knit",
+      "name": "Kanso Ribbed Merino Knit",
+      "edition": "Spring '25 Archive",
+      "brand": "AURA Living & Apparel",
+      "category": "Knitwear & Cashmere",
+      "shortDescription": "Grade-A ultra-fine ribbed crewneck in raw unbleached merino yarn.",
+      "fullDescription": "Mid-weight structural ribbed knit with raglan shoulder construction and reinforced collar binding. Soft hand feel designed to resist pilling over repeated daily wear.",
+      "price": 240.0,
+      "originalPrice": 240.0,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "reviewCount": 94,
+      "badges": [
+        "RESTOCKED",
+        "SPRING '25",
+        "GRADE-A FIBERS"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": true
+      },
+      "stockNotice": "Low stock alert across Kyoto and Paris salons",
+      "colors": [
+        {
+          "name": "Cream",
+          "hex": "#FAF6EE",
+          "selected": true
+        },
+        {
+          "name": "Heather Grey",
+          "hex": "#8A8884",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "Grade-A unbleached Merino fleece, spin-washed in Biella, Italy.",
+      "images": {
+        "primary": "SCREEN_18:kanso_ribbed_merino_flatlay.png",
+        "gallery": [
+          "SCREEN_18:kanso_ribbed_merino_flatlay.png",
+          "SCREEN_12:kanso_merino_knit_portrait.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-003",
+      "slug": "the-arco-travertine-table-lamp",
+      "name": "The Arco Travertine Table Lamp",
+      "edition": "Edition I / Tuscan Monolithic",
+      "brand": "AURA Living",
+      "category": "Living & Objects",
+      "shortDescription": "Carved monolithic Italian travertine stone table lamp with ambient linen shade.",
+      "fullDescription": "Porous solid natural travertine column base supporting an unbleached Belgian linen cylinder shade. Produces gentle 2700K diffusion with internal dimmable brass rotary switch.",
+      "price": 310.0,
+      "originalPrice": 310.0,
+      "discountPercentage": 0,
+      "rating": 5.0,
+      "reviewCount": 42,
+      "badges": [
+        "SOLID STONE",
+        "BACKORDER - 2 WEEKS"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "Ships in 2 weeks from Florence workshop",
+      "colors": [
+        {
+          "name": "Natural Travertine",
+          "hex": "#D8CFBC",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "One Size (38cm H x 22cm W)"
+      ],
+      "provenance": "Hand-carved Tuscan travertine stone, assembled with solid unlacquered brass hardware.",
+      "images": {
+        "primary": "SCREEN_18:arco_travertine_lamp.png",
+        "gallery": [
+          "SCREEN_18:arco_travertine_lamp.png",
+          "SCREEN_12:arco_travertine_monolithic_lamp.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-004",
+      "slug": "atelier-raw-silk-scarf",
+      "name": "Atelier Raw Silk Scarf",
+      "edition": "Permanent Archive",
+      "brand": "AURA Atelier",
+      "category": "Fine Jewelry & Scents / Accessories",
+      "shortDescription": "Hand-loomed organic raw mulberry silk wrap with frayed feathered selvage.",
+      "fullDescription": "Tactile unbleached organic filament spun by master artisans. Lightweight thermal regulating fiber suitable for transitional seasonal wear.",
+      "price": 145.0,
+      "originalPrice": 165.0,
+      "discountPercentage": 12,
+      "rating": 4.7,
+      "reviewCount": 63,
+      "badges": [
+        "HAND-LOOMED",
+        "SALE"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Ecru Silk",
+          "hex": "#F4EFE6",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "One Size (180cm x 70cm)"
+      ],
+      "provenance": "100% Raw unbleached filament silk, Kyoto hand-loom weave.",
+      "images": {
+        "primary": "SCREEN_18:atelier_raw_silk_scarf_folded.png",
+        "gallery": [
+          "SCREEN_18:atelier_raw_silk_scarf_folded.png",
+          "SCREEN_12:raw_mulberry_silk_wrap_model.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-005",
+      "slug": "hand-cast-bronze-vessel-incense-burner",
+      "name": "The Hand-Cast Bronze Vessel & Incense Burner",
+      "edition": "Vault Release / Collector Curation (Only 14 of 50 Pieces Remaining)",
+      "brand": "AURA Living Kyoto",
+      "category": "Living & Objects",
+      "shortDescription": "Lost-wax cast architectural bronze incense burner with natural fire patina.",
+      "fullDescription": "Lost-wax cast in Kyoto from recycled architectural bronze. Each piece bears individual patina markings that mature with time and ceremonial burnings. Presented with thirty sandalwood incense cones.",
+      "price": 265.0,
+      "originalPrice": 380.0,
+      "discountPercentage": 30,
+      "rating": 5.0,
+      "reviewCount": 18,
+      "badges": [
+        "SAVE 30% ARCHIVE PROMOTION",
+        "VAULT RELEASE",
+        "COLLECTOR CURATION"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": true
+      },
+      "stockNotice": "Only 14 of 50 Pieces Remaining",
+      "offerExpiryCountdown": "02 Days : 14 Hours : 42 Mins : 06 Secs",
+      "colors": [
+        {
+          "name": "Aged Patina Bronze",
+          "hex": "#3A352F",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "Standard (12cm Diameter)"
+      ],
+      "provenance": "Hand-cast in Kyoto bronze foundry with numbered certificate of lineage.",
+      "images": {
+        "primary": "SCREEN_18:bronze_vessel_incense_burner_dark.png",
+        "gallery": [
+          "SCREEN_18:bronze_vessel_incense_burner_dark.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-006",
+      "slug": "the-oversized-normandy-flax-blazer",
+      "name": "The Oversized Normandy Flax Blazer",
+      "edition": "Edition No. 42 / Batch of 80 Crafted",
+      "brand": "AURA Tailoring",
+      "category": "Outerwear & Tailoring",
+      "shortDescription": "Double-breasted unstructured blazer cut from breathable 100% Normandy flax.",
+      "fullDescription": "Relaxed tailoring with soft unstructured shoulder, double horn buttons, and breathable half-canvas cupro lining.",
+      "price": 540.0,
+      "originalPrice": 540.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 38,
+      "badges": [
+        "SPRING DROP 01",
+        "LIMITED EDITION",
+        "100% NORMANDY FLAX"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": false,
+        "isNewArrival": true,
+        "isLowStock": false
+      },
+      "stockNotice": "Batch of 80 Crafted",
+      "colors": [
+        {
+          "name": "Oat Flax",
+          "hex": "#D8CDBA",
+          "selected": true
+        },
+        {
+          "name": "Dark Umber",
+          "hex": "#3A322C",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "Normandy zero-irrigation retting flax, tailored in Paris.",
+      "images": {
+        "primary": "SCREEN_8:oversized_normandy_flax_blazer.png",
+        "gallery": [
+          "SCREEN_8:oversized_normandy_flax_blazer.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-007",
+      "slug": "pleated-wide-leg-palazzo-trouser",
+      "name": "Pleated Wide-Leg Palazzo Trouser",
+      "edition": "Core Archival",
+      "brand": "AURA Tailoring",
+      "category": "Pants & Trousers",
+      "shortDescription": "High-rise relaxed palazzo trouser tailored from deadstock silk-linen blend.",
+      "fullDescription": "Deep double forward pleats, extended tab waistband, and continuous flowing leg drape. Dry clean only.",
+      "price": 390.0,
+      "originalPrice": 390.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 51,
+      "badges": [
+        "CORE ARCHIVAL",
+        "DEADSTOCK SILK-LINEN BLEND"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Raw Sand",
+          "hex": "#C9BCA8",
+          "selected": true
+        },
+        {
+          "name": "Obsidian",
+          "hex": "#1B1B1B",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "Deadstock mulberry silk & Belgian flax weave.",
+      "images": {
+        "primary": "SCREEN_8:pleated_wide_leg_palazzo_trouser.png",
+        "gallery": [
+          "SCREEN_8:pleated_wide_leg_palazzo_trouser.png",
+          "SCREEN_2:pants_trousers_catalog_tile.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-008",
+      "slug": "architectural-band-collar-tunic",
+      "name": "Architectural Band-Collar Tunic",
+      "edition": "Atelier Essential",
+      "brand": "AURA Atelier",
+      "category": "Shirts & Tunics",
+      "shortDescription": "Crisp single-weave Belgian flax shirt with minimalist clean placket.",
+      "fullDescription": "Mandarin band collar, deep side hem slits for ease of movement, and mother-of-pearl buttons.",
+      "price": 295.0,
+      "originalPrice": 350.0,
+      "discountPercentage": 16,
+      "rating": 4.7,
+      "reviewCount": 24,
+      "badges": [
+        "ATELIER ESSENTIAL",
+        "SEASONAL MARK"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Bleached Ecru",
+          "hex": "#F8F6F0",
+          "selected": true
+        },
+        {
+          "name": "Dark Tobacco",
+          "hex": "#473426",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "provenance": "Single-weave certified Belgian flax.",
+      "images": {
+        "primary": "SCREEN_8:architectural_band_collar_tunic.png",
+        "gallery": [
+          "SCREEN_8:architectural_band_collar_tunic.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-009",
+      "slug": "heirloom-woven-fringed-throw",
+      "name": "Heirloom Woven Fringed Throw",
+      "edition": "Living Objects Archive",
+      "brand": "AURA Living",
+      "category": "Living & Objects",
+      "shortDescription": "Heavyweight 450 GSM pure flax blanket with hand-twisted fringed edges.",
+      "fullDescription": "Pre-washed for heirloom softness and substantial textural drape. Dimensions: 140x200cm.",
+      "price": 220.0,
+      "originalPrice": 220.0,
+      "discountPercentage": 0,
+      "rating": 5.0,
+      "reviewCount": 19,
+      "badges": [
+        "LIVING OBJECTS",
+        "HEAVYWEIGHT 450GSM PURE FLAX"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Oat Flax",
+          "hex": "#E3DCce",
+          "selected": true
+        },
+        {
+          "name": "Earthy Olive",
+          "hex": "#636453",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "140 x 200 cm"
+      ],
+      "provenance": "100% Normandy long-staple flax yarn.",
+      "images": {
+        "primary": "SCREEN_8:heirloom_woven_fringed_throw.png",
+        "gallery": [
+          "SCREEN_8:heirloom_woven_fringed_throw.png",
+          "SCREEN_4:the_linen_capsule_folded_stack.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-010",
+      "slug": "handcrafted-suede-loafer",
+      "name": "Handcrafted Suede Loafer",
+      "edition": "Italian Craftsmanship Series",
+      "brand": "AURA Footwear",
+      "category": "Handcrafted Footwear",
+      "shortDescription": "Hand-stitched Tuscan split-calf suede loafer with stacked leather sole.",
+      "fullDescription": "Blake-stitched construction with cushioned calfskin insole and subtle brass heel tacking. Form-fitting comfort that molds to the foot.",
+      "price": 385.0,
+      "originalPrice": 385.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 33,
+      "badges": [
+        "RESTOCKED",
+        "TUSCAN TANNERY"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "Stock replenishment confirmed",
+      "colors": [
+        {
+          "name": "Camel Suede",
+          "hex": "#B5885C",
+          "selected": true
+        },
+        {
+          "name": "Nero Suede",
+          "hex": "#202020",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "39 EU",
+        "40 EU",
+        "41 EU",
+        "42 EU",
+        "43 EU",
+        "44 EU"
+      ],
+      "provenance": "Vegetable-tanned calfskin suede from Santa Croce sull'Arno, Italy.",
+      "images": {
+        "primary": "SCREEN_12:handcrafted_suede_loafer_books.png",
+        "gallery": [
+          "SCREEN_12:handcrafted_suede_loafer_books.png",
+          "SCREEN_18:footwear_loafer_pair.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-011",
+      "slug": "kyoto-stoneware-vessel",
+      "name": "Kyoto Stoneware Vessel",
+      "edition": "Studio 04 / Wood-fired Edition",
+      "brand": "AURA Ceramics",
+      "category": "Ceramics & Vessels",
+      "shortDescription": "Wheel-thrown Shigaraki clay incense and tea vessel with bone matte wash.",
+      "fullDescription": "Individually thrown in a wood-fired kiln in Kyoto. Features distinctive natural ash flashings and an unglazed raw clay exterior.",
+      "price": 95.0,
+      "originalPrice": 95.0,
+      "discountPercentage": 0,
+      "rating": 5.0,
+      "reviewCount": 27,
+      "badges": [
+        "CERAMICS",
+        "ARTISAN EDITION"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "Limited Studio Run",
+      "colors": [
+        {
+          "name": "Bone Matte Wash",
+          "hex": "#EAE5D9",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "Small (9cm H x 11cm Diameter)"
+      ],
+      "provenance": "Crafted in Shigaraki kiln, Kyoto, Japan.",
+      "images": {
+        "primary": "SCREEN_12:kyoto_stoneware_vessel_incense.png",
+        "gallery": [
+          "SCREEN_12:kyoto_stoneware_vessel_incense.png",
+          "SCREEN_2:ceramics_vessels_kyoto_wheel.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-012",
+      "slug": "vesper-pleated-wool-pant",
+      "name": "Vesper Pleated Wool Pant",
+      "edition": "Atelier Tailoring",
+      "brand": "AURA Tailoring",
+      "category": "Pants & Trousers",
+      "shortDescription": "Lightweight tropical virgin wool trouser with relaxed architectural drape.",
+      "fullDescription": "Tailored with double front pleats, hidden horn fly closure, and slash pockets. Fabricated from ultra-breathable high-twist wool yarn.",
+      "price": 320.0,
+      "originalPrice": 320.0,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "reviewCount": 46,
+      "badges": [
+        "TAILORED",
+        "PURE TROPICAL WOOL"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Heather Taupe",
+          "hex": "#958A7E",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "provenance": "100% Virgin tropical wool, Biella, Italy.",
+      "images": {
+        "primary": "SCREEN_12:vesper_pleated_wool_pant_model.png",
+        "gallery": [
+          "SCREEN_12:vesper_pleated_wool_pant_model.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-013",
+      "slug": "vea-pleated-wide-leg-trouser",
+      "name": "Vea Pleated Wide-Leg Trouser",
+      "edition": "Permanent Collection",
+      "brand": "AURA Tailoring",
+      "category": "Pants & Trousers",
+      "shortDescription": "High-waist fluid trouser tailored in dense, weighty Japanese deadstock crepe.",
+      "fullDescription": "Features sharp pressed center creases and internal tailor-stay waistband. Complements the Soren Trench for lookbook styling.",
+      "price": 295.0,
+      "originalPrice": 295.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 39,
+      "badges": [
+        "PERMANENT COLLECTION",
+        "CORE WARDROBE"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Obsidian Charcoal",
+          "hex": "#202020",
+          "selected": true
+        },
+        {
+          "name": "Ecru Crepe",
+          "hex": "#EFECE6",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "S / US 2-4",
+        "M / US 6-8 (M/28)",
+        "L / US 10"
+      ],
+      "provenance": "Woven in Kyoto, finished in Paris Atelier.",
+      "images": {
+        "primary": "SCREEN_14:vea_pleated_wide_leg_trouser_mannequin.png",
+        "gallery": [
+          "SCREEN_14:vea_pleated_wide_leg_trouser_mannequin.png",
+          "SCREEN_10:manifest_vea_trouser_thumbnail.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-014",
+      "slug": "cato-seamless-ribbed-tank",
+      "name": "Cato Seamless Ribbed Tank",
+      "edition": "New Capsule / Tissue Silk Series",
+      "brand": "AURA Atelier",
+      "category": "Tops & Tunics",
+      "shortDescription": "Featherlight tissue-weight ribbed tank knit in raw filament silk.",
+      "fullDescription": "Seamless tubular circular-knit construction that molds gently without clinging. Ideal foundational layer.",
+      "price": 165.0,
+      "originalPrice": 165.0,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "reviewCount": 21,
+      "badges": [
+        "NEW CAPSULE",
+        "TISSUE SILK"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": true,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Raw Sand",
+          "hex": "#D6C7B2",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "100% Filament silk tissue knit.",
+      "images": {
+        "primary": "SCREEN_14:cato_seamless_ribbed_tank_hanger.png",
+        "gallery": [
+          "SCREEN_14:cato_seamless_ribbed_tank_hanger.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-015",
+      "slug": "kanso-sculptural-calfskin-tote",
+      "name": "Kanso Sculptural Calfskin Tote",
+      "edition": "Limited Object",
+      "brand": "AURA Leathercraft",
+      "category": "Fine Jewelry & Extracts / Leather",
+      "shortDescription": "Structured doctor-bag tote with hand-turned handles and unlacquered brass hardware.",
+      "fullDescription": "Vegetable-tanned full-grain saddle calfskin hand-burnished with natural beeswax. Features protective brass base feet and suede lining.",
+      "price": 580.0,
+      "originalPrice": 580.0,
+      "discountPercentage": 0,
+      "rating": 5.0,
+      "reviewCount": 14,
+      "badges": [
+        "LIMITED OBJECT",
+        "HAND-BURNISHED"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": true
+      },
+      "stockNotice": "Edition of 30 Pieces",
+      "colors": [
+        {
+          "name": "Burnished Sienna",
+          "hex": "#5D3724",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "Medium (32cm W x 26cm H x 14cm D)"
+      ],
+      "provenance": "Full-grain Tuscan calfskin, stitched by master saddlers.",
+      "images": {
+        "primary": "SCREEN_14:kanso_sculptural_calfskin_tote.png",
+        "gallery": [
+          "SCREEN_14:kanso_sculptural_calfskin_tote.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-016",
+      "slug": "tivoli-raw-edge-leather-slide",
+      "name": "Tivoli Raw Edge Leather Slide",
+      "edition": "Tuscan Footwear Series",
+      "brand": "AURA Footwear",
+      "category": "Handcrafted Footwear",
+      "shortDescription": "Minimalist double-strap slide crafted with raw-edge unlined bridle leather.",
+      "fullDescription": "Anatomically molded cork-latex footbed covered in soft glove leather, with durable natural crepe rubber outsole.",
+      "price": 340.0,
+      "originalPrice": 340.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 29,
+      "badges": [
+        "FOOTWEAR TUSCANY",
+        "CORE SUMMER"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Cognac Leather",
+          "hex": "#9E5A2D",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "37 EU",
+        "38 EU",
+        "39 EU",
+        "40 EU",
+        "41 EU"
+      ],
+      "provenance": "Handmade in Tuscany with certified botanical vegetable tannins.",
+      "images": {
+        "primary": "SCREEN_14:tivoli_raw_edge_leather_slide.png",
+        "gallery": [
+          "SCREEN_14:tivoli_raw_edge_leather_slide.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-017",
+      "slug": "atelier-unstructured-linen-blazer",
+      "name": "Atelier Unstructured Linen Blazer",
+      "edition": "Tailoring Collection",
+      "brand": "AURA Tailoring",
+      "category": "Outerwear & Tailoring",
+      "shortDescription": "Featherlight unlined single-button jacket tailored in raw Belgian flax.",
+      "fullDescription": "Patch pockets, notched lapel, and pick-stitched edges. Ideal effortless warm-weather suiting.",
+      "price": 385.0,
+      "originalPrice": 385.0,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "reviewCount": 35,
+      "badges": [
+        "NEW",
+        "SUSTAINABLE FIBER"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": true,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Natural Oatmeal",
+          "hex": "#DBD0C0",
+          "selected": true
+        },
+        {
+          "name": "Obsidian",
+          "hex": "#1A1A1A",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "100% Belgian flax yarn.",
+      "images": {
+        "primary": "SCREEN_20:atelier_unstructured_linen_blazer.png",
+        "gallery": [
+          "SCREEN_20:atelier_unstructured_linen_blazer.png",
+          "SCREEN_18:shop_by_collection_ready_to_wear_hanger.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-018",
+      "slug": "kyoto-pleated-palazzo-pant",
+      "name": "Kyoto Pleated Palazzo Pant",
+      "edition": "Vol. 04 / 2025 Release",
+      "brand": "AURA Tailoring",
+      "category": "Pants & Trousers",
+      "shortDescription": "High-drape wide-leg trouser with knife pleats in Japanese raw silk-cotton blend.",
+      "fullDescription": "Engineered with deep knife pleats and an elasticized rear inner waistband for effortless fit.",
+      "price": 310.0,
+      "originalPrice": 390.0,
+      "discountPercentage": 21,
+      "rating": 4.9,
+      "reviewCount": 42,
+      "badges": [
+        "LOW STOCK",
+        "SALE"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": true
+      },
+      "stockNotice": "Low Stock: Only 4 pairs remaining",
+      "colors": [
+        {
+          "name": "Charcoal Black",
+          "hex": "#222222",
+          "selected": true
+        },
+        {
+          "name": "Sand Dune",
+          "hex": "#D1C3B2",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "Woven in Kyoto, finished in Paris.",
+      "images": {
+        "primary": "SCREEN_20:kyoto_pleated_palazzo_pant.png",
+        "gallery": [
+          "SCREEN_20:kyoto_pleated_palazzo_pant.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-019",
+      "slug": "ribbed-cocoon-cashmere-cardigan",
+      "name": "Ribbed Cocoon Cashmere Cardigan",
+      "edition": "Signature Knitwear",
+      "brand": "AURA Atelier",
+      "category": "Knitwear & Cashmere",
+      "shortDescription": "Oversized ribbed cocoon cardigan in 4-ply Grade-A Mongolian cashmere.",
+      "fullDescription": "Generous open-front silhouette with dropped shoulders and patch pockets for enveloping softness.",
+      "price": 490.0,
+      "originalPrice": 490.0,
+      "discountPercentage": 0,
+      "rating": 5.0,
+      "reviewCount": 57,
+      "badges": [
+        "SIGNATURE",
+        "4-PLY CASHMERE"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Ivory Ecru",
+          "hex": "#F4F0E8",
+          "selected": true
+        },
+        {
+          "name": "Camel Ash",
+          "hex": "#A89480",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "Sustainably sheared Grade-A Mongolian cashmere.",
+      "images": {
+        "primary": "SCREEN_20:ribbed_cocoon_cashmere_cardigan.png",
+        "gallery": [
+          "SCREEN_20:ribbed_cocoon_cashmere_cardigan.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-020",
+      "slug": "aura-bias-cut-column-dress",
+      "name": "Aura Bias-Cut Column Dress",
+      "edition": "Rare Edition / Silk Crepe",
+      "brand": "AURA Atelier",
+      "category": "Dresses & Columns",
+      "shortDescription": "Floor-skimming bias-cut gown crafted from heavyweight hammered silk satin.",
+      "fullDescription": "Liquid silk drape featuring delicate rouleau straps, subtle cowl neckline, and French-seamed interior finish.",
+      "price": 420.0,
+      "originalPrice": 420.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 31,
+      "badges": [
+        "RARE EDITION",
+        "BIAS-CUT"
+      ],
+      "flags": {
+        "isFeatured": true,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": true
+      },
+      "stockNotice": "Limited allocation: 12 pieces in atelier",
+      "colors": [
+        {
+          "name": "Rust Copper",
+          "hex": "#B85A34",
+          "selected": true
+        },
+        {
+          "name": "Obsidian Noir",
+          "hex": "#141414",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "100% Hammered silk satin, Lyon, France.",
+      "images": {
+        "primary": "SCREEN_20:aura_bias_cut_column_dress.png",
+        "gallery": [
+          "SCREEN_20:aura_bias_cut_column_dress.png",
+          "SCREEN_2:dresses_columns_mannequin_wall.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-021",
+      "slug": "minimalist-sleeveless-silk-shell",
+      "name": "Minimalist Sleeveless Silk Shell",
+      "edition": "Ready-to-Wear Atelier",
+      "brand": "AURA Atelier",
+      "category": "Tops & Tunics",
+      "shortDescription": "Boatneck sleeveless top in unbleached organic raw filament silk.",
+      "fullDescription": "Clean minimal neckline with invisible rear zipper and baby-hem side slits. Pairs with wide-leg tailoring.",
+      "price": 225.0,
+      "originalPrice": 225.0,
+      "discountPercentage": 0,
+      "rating": 4.8,
+      "reviewCount": 26,
+      "badges": [
+        "RESTOCKED",
+        "RAW SILK"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Raw Ecru",
+          "hex": "#EFECE6",
+          "selected": true
+        },
+        {
+          "name": "Obsidian",
+          "hex": "#1E1E1E",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "100% Raw silk filament.",
+      "images": {
+        "primary": "SCREEN_20:minimalist_sleeveless_silk_shell.png",
+        "gallery": [
+          "SCREEN_20:minimalist_sleeveless_silk_shell.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-022",
+      "slug": "double-faced-wool-belted-trench",
+      "name": "Double-Faced Wool Belted Trench",
+      "edition": "Winter Archive Release",
+      "brand": "AURA Tailoring",
+      "category": "Outerwear & Tailoring",
+      "shortDescription": "Hand-stitched double-faced virgin wool coat with storm-guard storm flap.",
+      "fullDescription": "Unlined double-cloth construction requiring hours of hand-split edge stitching. Features sash belt and storm cuff tabs.",
+      "price": 640.0,
+      "originalPrice": 780.0,
+      "discountPercentage": 18,
+      "rating": 5.0,
+      "reviewCount": 44,
+      "badges": [
+        "SUSTAINABLE FIBER",
+        "SALE"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": true,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Olive Moss",
+          "hex": "#4D4E3C",
+          "selected": true
+        },
+        {
+          "name": "Dark Charcoal",
+          "hex": "#252525",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "100% Traceable Merino double-cloth wool.",
+      "images": {
+        "primary": "SCREEN_20:double_faced_wool_belted_trench.png",
+        "gallery": [
+          "SCREEN_20:double_faced_wool_belted_trench.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-023",
+      "slug": "deconstructed-popover-linen-shirt",
+      "name": "Deconstructed Popover Linen Shirt",
+      "edition": "Spring/Summer 2025",
+      "brand": "AURA Atelier",
+      "category": "Shirts & Tunics",
+      "shortDescription": "Relaxed spread-collar popover shirt crafted from medium-gauge French flax.",
+      "fullDescription": "Three-button popover placket, curved drop-tail hem, and rolled sleeve cuffs.",
+      "price": 245.0,
+      "originalPrice": 245.0,
+      "discountPercentage": 0,
+      "rating": 4.7,
+      "reviewCount": 33,
+      "badges": [
+        "NEW",
+        "PURE FLAX"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": true,
+        "isLowStock": false
+      },
+      "stockNotice": "In Stock",
+      "colors": [
+        {
+          "name": "Natural Cream",
+          "hex": "#F5EFE4",
+          "selected": true
+        },
+        {
+          "name": "Terracotta",
+          "hex": "#9E5638",
+          "selected": false
+        },
+        {
+          "name": "Slate Navy",
+          "hex": "#2B343D",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "provenance": "Washed Normandy flax.",
+      "images": {
+        "primary": "SCREEN_20:deconstructed_popover_linen_shirt.png",
+        "gallery": [
+          "SCREEN_20:deconstructed_popover_linen_shirt.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-024",
+      "slug": "structured-collarless-wool-blazer",
+      "name": "Structured Collarless Wool Blazer",
+      "edition": "Paris VII Tailoring Archive",
+      "brand": "AURA Tailoring",
+      "category": "Outerwear & Tailoring",
+      "shortDescription": "Architectural collarless tailored jacket crafted from deadstock wool-silk barathea.",
+      "fullDescription": "Clean minimal collarline, single concealed horn fastener, sculpted waist darting, and silk-lined cuffs.",
+      "price": 465.0,
+      "originalPrice": 465.0,
+      "discountPercentage": 0,
+      "rating": 4.9,
+      "reviewCount": 22,
+      "badges": [
+        "LOW STOCK",
+        "DEADSTOCK BARATHEA"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": true
+      },
+      "stockNotice": "Low Stock: Only 3 remaining in atelier",
+      "colors": [
+        {
+          "name": "Midnight Indigo",
+          "hex": "#1E252E",
+          "selected": true
+        },
+        {
+          "name": "Noir",
+          "hex": "#121212",
+          "selected": false
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "Deadstock wool-silk barathea woven in Yorkshire.",
+      "images": {
+        "primary": "SCREEN_20:structured_collarless_wool_blazer.png",
+        "gallery": [
+          "SCREEN_20:structured_collarless_wool_blazer.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-025",
+      "slug": "ribbed-brushed-alpaca-crewneck",
+      "name": "Ribbed Brushed Alpaca Crewneck",
+      "edition": "Historical Archive Delivery #AU-81029",
+      "brand": "AURA Knitwear",
+      "category": "Knitwear & Cashmere",
+      "shortDescription": "Chunky brioche-stitch crewneck in Peruvian baby suri alpaca blend.",
+      "fullDescription": "Ultra-plush cloud-weight texture brushed with natural thistle teasels. Completed customer commission item.",
+      "price": 240.0,
+      "originalPrice": 240.0,
+      "discountPercentage": 0,
+      "rating": 5.0,
+      "reviewCount": 11,
+      "badges": [
+        "ARCHIVE COMMISSION",
+        "BABY SURI ALPACA"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "Archived Release",
+      "colors": [
+        {
+          "name": "Bone",
+          "hex": "#EDE8DE",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "provenance": "100% Baby suri alpaca, Peru.",
+      "images": {
+        "primary": "SCREEN_10:ribbed_brushed_alpaca_crewneck_folded.png",
+        "gallery": [
+          "SCREEN_10:ribbed_brushed_alpaca_crewneck_folded.png"
+        ]
+      }
+    },
+    {
+      "id": "AURA-PROD-026",
+      "slug": "calfskin-chelsea-boot-cashmere-wrap-bundle",
+      "name": "Calfskin Chelsea Boot & Cashmere Wrap",
+      "edition": "Delivery #AU-74892 / Historical Commission",
+      "brand": "AURA Atelier Curations",
+      "category": "Handcrafted Footwear",
+      "shortDescription": "Bespoke package featuring French calfskin Chelsea boots with cashmere travel wrap.",
+      "fullDescription": "Goodyear welted Chelsea boots crafted in Saint-Germain-des-Prés, paired with an 8-ply cashmere blanket wrap.",
+      "price": 695.0,
+      "originalPrice": 695.0,
+      "discountPercentage": 0,
+      "rating": 5.0,
+      "reviewCount": 9,
+      "badges": [
+        "HISTORICAL ARCHIVE",
+        "BESPOKE BUNDLE"
+      ],
+      "flags": {
+        "isFeatured": false,
+        "isBestSeller": false,
+        "isNewArrival": false,
+        "isLowStock": false
+      },
+      "stockNotice": "Bespoke Delivery Complete",
+      "colors": [
+        {
+          "name": "Espresso Calfskin",
+          "hex": "#2F231D",
+          "selected": true
+        }
+      ],
+      "sizes": [
+        "EU 39",
+        "EU 40",
+        "EU 41"
+      ],
+      "provenance": "French calfskin with Scottish cashmere.",
+      "images": {
+        "primary": "SCREEN_10:chelsea_boot_and_cashmere_wrap_thumbnail.png",
+        "gallery": [
+          "SCREEN_10:chelsea_boot_and_cashmere_wrap_thumbnail.png"
+        ]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "Outerwear & Tailoring",
+      "slug": "outerwear-and-tailoring",
+      "itemCount": 24,
+      "screenReference": "SCREEN_2 & SCREEN_20",
+      "productIds": [
+        "AURA-PROD-001",
+        "AURA-PROD-006",
+        "AURA-PROD-017",
+        "AURA-PROD-022",
+        "AURA-PROD-024"
+      ],
+      "heroImage": "SCREEN_2:outerwear_tailoring_tile.png"
+    },
+    {
+      "name": "Knitwear & Cashmere",
+      "slug": "knitwear-and-cashmere",
+      "itemCount": 18,
+      "screenReference": "SCREEN_2 & SCREEN_20",
+      "productIds": [
+        "AURA-PROD-002",
+        "AURA-PROD-019",
+        "AURA-PROD-025"
+      ],
+      "heroImage": "SCREEN_2:knitwear_cashmere_stone_macro.png"
+    },
+    {
+      "name": "Pants & Trousers",
+      "slug": "pants-and-trousers",
+      "itemCount": 16,
+      "screenReference": "SCREEN_2 & SCREEN_20",
+      "productIds": [
+        "AURA-PROD-007",
+        "AURA-PROD-012",
+        "AURA-PROD-013",
+        "AURA-PROD-018"
+      ],
+      "heroImage": "SCREEN_2:pants_trousers_model_indoor.png"
+    },
+    {
+      "name": "Dresses & Columns",
+      "slug": "dresses-and-columns",
+      "itemCount": 12,
+      "screenReference": "SCREEN_2 & SCREEN_20",
+      "productIds": [
+        "AURA-PROD-020"
+      ],
+      "heroImage": "SCREEN_2:dresses_columns_mannequin_wall.png"
+    },
+    {
+      "name": "Shirts, Tops & Tunics",
+      "slug": "shirts-and-tunics",
+      "itemCount": 15,
+      "screenReference": "SCREEN_8, SCREEN_14 & SCREEN_20",
+      "productIds": [
+        "AURA-PROD-008",
+        "AURA-PROD-014",
+        "AURA-PROD-021",
+        "AURA-PROD-023"
+      ],
+      "heroImage": "SCREEN_8:architectural_band_collar_tunic.png"
+    },
+    {
+      "name": "Handcrafted Footwear",
+      "slug": "handcrafted-footwear",
+      "itemCount": 14,
+      "screenReference": "SCREEN_2, SCREEN_12 & SCREEN_14",
+      "productIds": [
+        "AURA-PROD-010",
+        "AURA-PROD-016",
+        "AURA-PROD-026"
+      ],
+      "heroImage": "SCREEN_2:handcrafted_footwear_mules.png"
+    },
+    {
+      "name": "Living & Objects",
+      "slug": "living-and-objects",
+      "itemCount": 28,
+      "screenReference": "SCREEN_8, SCREEN_12 & SCREEN_18",
+      "productIds": [
+        "AURA-PROD-003",
+        "AURA-PROD-005",
+        "AURA-PROD-009"
+      ],
+      "heroImage": "SCREEN_18:shop_by_collection_living_objects_vases.png"
+    },
+    {
+      "name": "Ceramics & Vessels",
+      "slug": "ceramics-and-vessels",
+      "itemCount": 9,
+      "screenReference": "SCREEN_2 & SCREEN_12",
+      "productIds": [
+        "AURA-PROD-011"
+      ],
+      "heroImage": "SCREEN_2:ceramics_vessels_kyoto_wheel.png"
+    },
+    {
+      "name": "Fine Jewelry & Extracts / Leather",
+      "slug": "fine-jewelry-extracts-leather",
+      "itemCount": 27,
+      "screenReference": "SCREEN_4, SCREEN_12, SCREEN_14 & SCREEN_18",
+      "productIds": [
+        "AURA-PROD-004",
+        "AURA-PROD-015"
+      ],
+      "heroImage": "SCREEN_18:shop_by_collection_scents_bottles.png"
+    }
+  ]
+}

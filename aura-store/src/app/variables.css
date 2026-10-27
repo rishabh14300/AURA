@@ -1,0 +1,50 @@
+:root {
+  color-scheme: light;
+
+  --color-obsidian: #111111;
+  --color-obsidian-hover: #262626;
+  --color-clay: #b85a34;
+  --color-clay-hover: #9f4827;
+  --color-bronze: #8a6d4b;
+  --color-clay-50: #fceee8;
+  --color-clay-100: #f9d9cc;
+  --color-clay-200: #f3b69f;
+  --color-clay-300: #e98f6c;
+  --color-clay-400: #d96f49;
+  --color-clay-500: #b85a34;
+  --color-clay-600: #9f4827;
+  --color-clay-700: #77351d;
+  --color-clay-800: #4f2516;
+  --color-clay-900: #2c160d;
+
+  --color-ink: #2e2c29;
+  --color-body-strong: #2e2c29;
+  --color-body: #4a4742;
+  --color-muted: #736e67;
+  --color-subtle: #8a857d;
+
+  --color-neutral: #faf9f6;
+  --color-tertiary: #f5f4f0;
+  --color-surface-low: #f4f3f1;
+  --color-surface: #ffffff;
+  --color-border: #e5e3df;
+
+  --color-ink-50: #f4f3f1;
+  --color-ink-100: #e5e3df;
+  --color-ink-200: #ccc9c4;
+  --color-ink-300: #b2aea8;
+  --color-ink-400: #99948d;
+  --color-ink-500: #7f7a73;
+  --color-ink-600: #66615b;
+  --color-ink-700: #4a4742;
+  --color-ink-800: #2e2c29;
+  --color-ink-900: #111111;
+
+  --font-sans: "Inter", "Plus Jakarta Sans", Arial, sans-serif;
+  --font-serif: "Newsreader", "Playfair Display", Georgia, serif;
+
+  --tracking-eyebrow: 0.2em;
+  --tracking-button: 0.18em;
+  --radius-atelier: 2px;
+  --transition-atelier: 150ms ease;
+}
