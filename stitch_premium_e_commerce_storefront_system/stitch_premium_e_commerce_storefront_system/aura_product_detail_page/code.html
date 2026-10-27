@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container":"#efeeeb","tertiary":"#000000","secondary-fixed":"#ffdbce","surface-variant":"#e3e2e0","surface-tint":"#5f5e5e","on-tertiary":"#ffffff","surface-container-high":"#e9e8e5","surface-bright":"#faf9f6","tertiary-container":"#1b1c1a","secondary":"#9b4420","on-surface-variant":"#444748","primary-fixed-dim":"#c8c6c5","outline-variant":"#c4c7c7","secondary-fixed-dim":"#ffb59a","on-primary-container":"#858383","background":"#faf9f6","on-secondary-fixed":"#380d00","surface":"#faf9f6","on-primary-fixed":"#1c1b1b","inverse-primary":"#c8c6c5","surface-container-low":"#f4f3f1","on-secondary-fixed-variant":"#7c2e0a","tertiary-fixed":"#e3e2df","on-tertiary-container":"#848481","on-secondary":"#ffffff","outline":"#747878","surface-container-highest":"#e3e2e0","error-container":"#ffdad6","on-secondary-container":"#752905","tertiary-fixed-dim":"#c7c7c3","error":"#ba1a1a","primary":"#000000","on-error":"#ffffff","surface-container-lowest":"#ffffff","on-background":"#1a1c1a","on-primary-fixed-variant":"#474646","inverse-on-surface":"#f2f1ee","on-surface":"#1a1c1a","on-error-container":"#93000a","secondary-container":"#fe9166","primary-fixed":"#e5e2e1","on-tertiary-fixed-variant":"#464744","primary-container":"#1c1b1b","on-primary":"#ffffff","on-tertiary-fixed":"#1b1c1a","surface-dim":"#dbdad7","inverse-surface":"#2f312f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"0.75rem","space-md":"1rem","margin-mobile":"1.25rem","space-xl":"2.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-lg":"1.5rem","margin":"3rem","gutter":"1.5rem"},"fontFamily":{"headline-sm":["Playfair Display"],"label-caps":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-hero-mobile":["Playfair Display"],"display-hero":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"headline-lg":["Playfair Display"]},"fontSize":{"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"500"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-low px-margin"><div class="max-w-[1440px] mx-auto h-9 flex items-center justify-between font-label-caps text-label-caps tracking-widest text-on-surface-variant"><div class="flex items-center gap-space-sm"><span class="cursor-pointer hover:text-on-surface transition-colors">USD ($)</span><span class="text-outline-variant">/</span><span class="cursor-pointer hover:text-on-surface transition-colors">EN</span></div><div class="flex items-center gap-space-xs"><span class="text-secondary font-semibold">SPRING ATELIER LAUNCH</span><span class="text-outline-variant">—</span><span>Complimentary worldwide express shipping on orders over $250</span></div><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">CONCIERGE</a><button class="flex items-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[16px]">close</span></button></div></div></div><div class="h-20"><div class="max-w-[1440px] mx-auto h-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-lg"><img alt="AURA Wordmark Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XVW9E2jfXFXVxK3eFfnckyO8-D1oCuoe98HUhHmM7gGWPYhQEgLgIkIpT4OPDDOv76xDdF_jyq8VF-1Pq7-dVYSBdbwZ-3tcDs36YuGIjn9RjhZHnr_ThaCkQ8eygDvBHMvO-HIT74q6LEckJgBbOZO5_A2lNM7dcfDvEsI9dbS4DXS2oiOHrK97zL8XTDYeOyZU3HwTrYNsIo334zOJQNEhx2XxpAbvIVeV17jDAroI9vGmm4n-47Y8E"/><span class="font-headline-sm text-headline-sm tracking-wider text-on-surface hidden xl:inline">AURA</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-on-surface font-semibold underline underline-offset-8 decoration-1 decoration-secondary"><a aria-current="page" class="tracking-widest transition-colors flex items-center gap-space-xs text-on-surface font-semibold underline underline-offset-8 decoration-1 decoration-secondary" data-path="shop" href="#">SHOP <span class="text-[9px] text-secondary">▾</span></a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="categories" href="#">CATEGORIES</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="new-arrivals" href="#">NEW ARRIVALS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="best-sellers" href="#">BEST SELLERS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="offers" href="#">OFFERS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="journal" href="#">JOURNAL</a></nav><div class="flex items-center gap-space-md"><button class="hidden md:flex items-center gap-space-sm px-space-sm py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-label-sm text-label-sm">Search atelier...</span><kbd class="font-label-caps text-[9px] bg-surface-container px-1.5 py-0.5 rounded text-on-surface-variant">⌘K</kbd></button><a class="relative p-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-surface-container-highest text-on-surface font-label-caps text-[9px] flex items-center justify-center font-semibold">3</span></a><a class="relative p-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="cart" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-primary text-on-primary font-label-caps text-[9px] flex items-center justify-center font-semibold">2</span></a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-surface-variant cursor-pointer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5oOg54sGeZGQbn62-4Aue6C_dPScdUBOMue7OKioaeqlOMJW0bLlaOag6X3snYe34DFDv32YljkZnqZr9uyvnk7zh462rh1PK1_wDPakEd5huC-uKrQm85GfJobwXjGAFDv_zKW2rVjx07W2unAyNn7ol4wetIhMCZSibNNkiT7ULD0z8BS4VwFl8cfK_UEoI_wUQ_9AetiFATaaR_MtkzF8rHFNjQVAQf19PKPsdnR02Bl7LKs8o"/></div></div></div></div></header><main class="w-full pt-[116px] bg-surface"><div class="flex flex-col w-full">
+<!-- Top Breadcrumb & Archive Meta Row -->
+<section class="w-full bg-surface-container-low px-margin py-space-sm">
+<div class="max-w-[1440px] mx-auto flex flex-wrap items-center justify-between gap-space-sm font-label-caps text-label-caps text-on-surface-variant">
+<nav class="flex items-center gap-space-xs tracking-widest text-[10px] md:text-label-caps">
+<a class="hover:text-on-surface transition-colors" href="#">HOME</a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-on-surface transition-colors" href="#">READY-TO-WEAR</a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-on-surface transition-colors" href="#">OUTERWEAR</a>
+<span class="text-outline-variant">/</span>
+<span class="text-on-surface font-semibold">SOREN PLEATED LINEN TRENCH</span>
+</nav>
+<div class="hidden md:flex items-center gap-space-md tracking-widest text-[10px]">
+<span class="text-secondary font-medium">BATCH 04 / EDITION OF 180</span>
+<span class="text-outline-variant">|</span>
+<span class="text-on-surface-variant">NORMANDY HARVEST 2024</span>
+</div>
+</div>
+</section>
+<!-- Main Product Detail Split Section -->
+<section class="w-full max-w-[1440px] mx-auto px-margin py-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Editorial Multi-Image Stacking & Interactive Lens (7 Columns) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Floating Micro Navigation for Imagery -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-secondary inline-block"></span>
+<span class="font-label-caps text-label-caps tracking-widest text-on-surface">ATELIER LOOKBOOK • 4 PERSPECTIVES</span>
+</div>
+<button class="flex items-center gap-space-xs font-label-caps text-label-caps tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" id="fullscreenToggle">
+<span class="material-symbols-outlined text-[16px]">fullscreen</span>
+<span>EXPAND FOCUS</span>
+</button>
+</div>
+<!-- 2x2 Editorial Photo Mosaic with Ambient Depth -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Shot 1: Front Full Body Model -->
+<div class="group relative bg-surface-container-low overflow-hidden cursor-crosshair aspect-[3/4]">
+<span class="absolute top-space-md left-space-md z-10 font-label-caps text-[10px] tracking-widest bg-surface/90 backdrop-blur-sm text-on-surface px-2.5 py-1">PLATE I • ARCHITECTURAL DRAPE</span>
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="High fashion editorial full length shot of an elegant woman wearing the oversized ecru Soren Pleated Linen Trench coat. Minimalist warm concrete studio in natural morning sunlight, clean beige and sandstone tones, refined quiet luxury aesthetic with sharp tailoring drape." id="mainView1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM6VbOZT77sOQ5WJ4-OYumBfxku-k_HnPMA0luVX3xlZ762DqXyPAsvGz1_HPwfKtWjmeh2jkIKfxttQPvOm6qHjMstxfjrw4kWjempx-cAjLOIn3-uGSkJJEsqFFmBHvOhfz68EkATz5k0pRlf6o7qBUBZqfTsWtZ5KgwBeDn0LnHfzF-hMTfpcS6sJYxHzVAGzshT23pndvm-hioQ7HuB2HflpgKuA38aNhBEGDkOzJJ8biy5Yk-"/>
+<div class="absolute bottom-3 right-3 bg-surface/80 backdrop-blur-sm p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-[18px] text-on-surface">zoom_in</span>
+</div>
+</div>
+<!-- Shot 2: Back Pleat Silhouette -->
+<div class="group relative bg-surface-container-low overflow-hidden cursor-crosshair aspect-[3/4]">
+<span class="absolute top-space-md left-space-md z-10 font-label-caps text-[10px] tracking-widest bg-surface/90 backdrop-blur-sm text-on-surface px-2.5 py-1">PLATE II • ACCORDION BACK PLEATING</span>
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Rear profile three quarter perspective of the Soren Pleated Linen Trench showing deep center pleated vent and sculptural waist sash tied gracefully. Neutral bone palette, dramatic clean studio shadows emphasizing garment construction and fluid volume." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1JGFzjkrBCuTNTToTupx6-I-KVSuR9W7nyK4pTlDs9IkHn0lYhLh9GQlYjS981jfUyoAt1mr2lpC65OFstgIQo4otjOxcne1qV69dcO2ThLPbPgIiSEHoJAGYyDbEYo7ApjUA5W9htgVTLBa1jWnzf2vy2PnFdMJqKYc1ngPgUVJB_7fNqHIOsAa2b5E52fQc-B07yruaImVqcAv3ZT-TygE7XD2Lvh6jhcbovId7AD--q-2oQMPe"/>
+<div class="absolute bottom-3 right-3 bg-surface/80 backdrop-blur-sm p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-[18px] text-on-surface">zoom_in</span>
+</div>
+</div>
+<!-- Shot 3: Macro Weave & Horn Button Detail -->
+<div class="group relative bg-surface-container-low overflow-hidden cursor-crosshair aspect-[3/4]">
+<span class="absolute top-space-md left-space-md z-10 font-label-caps text-[10px] tracking-widest bg-surface/90 backdrop-blur-sm text-on-surface px-2.5 py-1">PLATE III • 380 GSM FLAX &amp; BUFFALO HORN</span>
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Extreme macro close-up of textured oatmeal heavyweight Normandy linen fabric. Tangible crosshatch woven slub texture, delicate hand-stitched welt seams, and genuine polished dark horn button with engraved subtle atelier lettering." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoSn1CcQQCRl-PQmI3JwSXWom7OWR_MTaMADFOsCvg-g9fZPlnsbDNj9596PB52YymUmcRhCb6f7wvrq5gMzAuPV3uKqgw25-c3dGbUUzxp2K8u7NI14JrFGEKj5nuzvFirhpCXygjE5HcIfyRoS4v3AM1jkml4bLbjp39EHSoOg5nUjNktJ9BtiQ_7ud_7UEX-LepHdjEQE8J9qGDrB2KrDkDu52pgxOgfPgEzrF0aSQ9GvA3aP_J"/>
+<div class="absolute bottom-3 right-3 bg-surface/80 backdrop-blur-sm p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-[18px] text-on-surface">zoom_in</span>
+</div>
+</div>
+<!-- Shot 4: Street/Editorial Styled Living Context -->
+<div class="group relative bg-surface-container-low overflow-hidden cursor-crosshair aspect-[3/4]">
+<span class="absolute top-space-md left-space-md z-10 font-label-caps text-[10px] tracking-widest bg-surface/90 backdrop-blur-sm text-on-surface px-2.5 py-1">PLATE IV • IN SITU • TRIBECA</span>
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Street editorial view of a model in motion wearing the Soren trench coat paired with wide leg raw silk trousers, walking past an architecturally refined brutalist limestone building. Soft diffuse overcast daylight, organic movement." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-UDdGhffhJ05AJT8kM2mTM3ZCsXroG1E4KjwASv96S4YZYB4EOsXr6MuBq3O1isHIEm7BiP8h_l7fm0JbPwHO3YEi0AuqsbIl5wvGrQBF4Zf_aQ_LSCjCDmEoAHWBuh5DqKF1Dpu51JW9VnJBFujRuw2XRE-nk6aTQu7wOTmUQzIBkG11rCsFAe86VvtbaK_HJiTryVdJ6Qp8adGL8g6l7IqyVIvje485qRO6Fb11YdelZQnPFwI1"/>
+<div class="absolute bottom-3 right-3 bg-surface/80 backdrop-blur-sm p-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-[18px] text-on-surface">zoom_in</span>
+</div>
+</div>
+</div>
+<!-- Material Provenance Callout Strip -->
+<div class="bg-surface-container p-space-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<span class="material-symbols-outlined text-secondary text-[28px]">eco</span>
+<div>
+<p class="font-label-caps text-label-caps tracking-widest text-on-surface font-semibold">100% TRACEABLE NORMANDY CROPPED FLAX</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Naturally rain-fed, pesticide-free harvest milled in Northern France with closed-loop water recapture.</p>
+</div>
+</div>
+<button class="font-label-caps text-label-caps text-secondary underline underline-offset-4 whitespace-nowrap hover:text-on-surface transition-colors">
+            VIEW CERTIFICATE
+          </button>
+</div>
+</div>
+<!-- Right Column: Sticky Purchase Decision Panel (5 Columns) -->
+<div class="lg:col-span-5 lg:sticky lg:top-[132px] flex flex-col gap-space-lg">
+<!-- Header & Price Block -->
+<div class="bg-surface-container-lowest p-space-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest font-semibold">AURA ATELIER EDITION</span>
+<div class="flex items-center gap-1.5 text-on-surface-variant text-[11px] font-label-caps">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600 inline-block animate-pulse"></span>
+<span class="text-on-surface font-medium">PARIS / NEW YORK</span>
+</div>
+</div>
+<h1 class="font-headline-md text-headline-md text-on-surface leading-tight">
+            Soren Pleated Linen Trench <span class="font-light italic font-headline-sm text-headline-sm block mt-1 text-on-surface-variant">— Heavyweight Normandy Flax</span>
+</h1>
+<!-- Price & Split Pay -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<div class="flex items-baseline gap-space-md">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">$420 <span class="font-label-caps text-label-caps text-on-surface-variant">USD</span></span>
+<span class="font-label-caps text-[11px] bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 tracking-wider font-semibold">COMPLIMENTARY TAILORING ON REQUEST</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-space-xs">
+<span>Or 4 interest-free installments of $105 with</span>
+<span class="font-label-caps text-label-caps font-bold text-on-surface bg-surface-container px-1.5 py-0.5">Klarna</span>
+<span>or</span>
+<span class="font-label-caps text-label-caps font-bold text-on-surface bg-surface-container px-1.5 py-0.5">Afterpay</span>
+</p>
+</div>
+<!-- Social Proof Snippet -->
+<div class="flex items-center justify-between py-space-sm bg-surface-container-low px-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="flex text-secondary text-sm">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-md text-label-md font-semibold text-on-surface">4.9</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(128 Atelier Reviews)</span>
+</div>
+<a class="font-label-caps text-label-caps text-on-surface hover:text-secondary underline underline-offset-4 tracking-wider transition-colors" href="#reviewsSection">
+              READ VERIFIED
+            </a>
+</div>
+<!-- Color Selector -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps tracking-widest text-on-surface font-semibold">COLOR PALETTE:</span>
+<span class="font-label-caps text-label-caps tracking-wider text-secondary font-medium" id="currentColorLabel">Oatmeal Linen (Core)</span>
+</div>
+<div class="flex items-center gap-space-md" id="colorPickerGroup">
+<!-- Swatch 1 (Active) -->
+<button class="color-swatch-btn relative w-10 h-10 rounded-full bg-[#E5E0D8] p-0.5 transition-all shadow-sm ring-2 ring-primary ring-offset-2 ring-offset-surface" data-color="Oatmeal Linen (Core)">
+<span class="sr-only">Oatmeal Linen</span>
+</button>
+<!-- Swatch 2 -->
+<button class="color-swatch-btn relative w-10 h-10 rounded-full bg-[#3B2F28] p-0.5 transition-all shadow-sm hover:scale-105 ring-0 ring-offset-2 ring-offset-surface" data-color="Washed Espresso">
+<span class="sr-only">Washed Espresso</span>
+</button>
+<!-- Swatch 3 -->
+<button class="color-swatch-btn relative w-10 h-10 rounded-full bg-[#181818] p-0.5 transition-all shadow-sm hover:scale-105 ring-0 ring-offset-2 ring-offset-surface" data-color="Obsidian Black">
+<span class="sr-only">Obsidian Black</span>
+</button>
+</div>
+</div>
+<!-- Size Selector & Scarcity Urgency -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex justify-between items-center">
+<span class="font-label-caps text-label-caps tracking-widest text-on-surface font-semibold">ATELIER SIZING:</span>
+<button class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface underline underline-offset-4 flex items-center gap-1" id="openSizeGuideModal">
+<span class="material-symbols-outlined text-[14px]">straighten</span>
+                Size Guide (True to European Fit)
+              </button>
+</div>
+<div class="grid grid-cols-5 gap-space-xs" id="sizeSelectorGrid">
+<button class="size-pill py-3 text-center font-label-caps text-label-caps tracking-wider bg-surface-container-low text-on-surface hover:bg-surface-container transition-all" data-size="XS">XS</button>
+<button class="size-pill py-3 text-center font-label-caps text-label-caps tracking-wider bg-surface-container-low text-on-surface hover:bg-surface-container transition-all" data-size="S">S</button>
+<button class="size-pill py-3 text-center font-label-caps text-label-caps tracking-wider bg-primary text-on-primary transition-all font-bold" data-size="M">M</button>
+<button class="size-pill py-3 text-center font-label-caps text-label-caps tracking-wider bg-surface-container-low text-on-surface hover:bg-surface-container transition-all" data-size="L">L</button>
+<button class="size-pill py-3 text-center font-label-caps text-label-caps tracking-wider bg-surface-container-low text-on-surface-variant hover:bg-surface-container transition-all" data-size="XL">XL</button>
+</div>
+<!-- Urgency Micro Badge -->
+<div class="flex items-center gap-space-xs bg-secondary-fixed/40 px-space-md py-2 mt-1">
+<span class="material-symbols-outlined text-secondary text-[16px]">hourglass_top</span>
+<span class="font-label-caps text-[11px] text-on-secondary-fixed font-semibold tracking-wider">
+                LOW STOCK ALERT: Only 3 remaining in Size M for current production run.
+              </span>
+</div>
+</div>
+<!-- Quantity & Stock Guarantee -->
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center bg-surface-container-low">
+<button class="w-10 h-10 flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" id="qtyMinus">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<span class="w-10 text-center font-label-caps text-label-caps font-semibold text-on-surface" id="qtyVal">1</span>
+<button class="w-10 h-10 flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" id="qtyPlus">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<div class="flex items-center gap-space-xs text-right">
+<span class="material-symbols-outlined text-[16px] text-emerald-700">inventory_2</span>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">In Stock — Ships from New York Atelier</p>
+</div>
+</div>
+<!-- Primary Conversion CTA Buttons -->
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<button class="w-full h-12 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest hover:bg-surface-container-highest hover:text-on-surface transition-all flex items-center justify-center gap-space-sm uppercase font-semibold shadow-md active:scale-[0.99]" id="addToBagBtn">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>ADD TO BAG — $420 USD</span>
+</button>
+<!-- Express Checkout Trigger -->
+<button class="w-full h-12 bg-black text-white hover:bg-zinc-800 font-label-caps text-label-caps tracking-widest transition-all flex items-center justify-center gap-space-xs uppercase shadow-sm">
+<span class="font-body-sm">Buy with</span>
+<span class="font-headline-sm italic text-base">Apple Pay</span>
+</button>
+</div>
+<!-- Auxiliary Actions (Wishlist & Share) -->
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs">
+<button class="py-2.5 px-space-sm bg-surface-container-low text-on-surface font-label-caps text-label-caps tracking-wider flex items-center justify-center gap-space-xs hover:bg-surface-container transition-colors" id="wishlistBtn">
+<span class="material-symbols-outlined text-[18px]" id="heartIcon">favorite_border</span>
+<span id="wishlistText">SAVE TO ARCHIVE</span>
+</button>
+<button class="py-2.5 px-space-sm bg-surface-container-low text-on-surface font-label-caps text-label-caps tracking-wider flex items-center justify-center gap-space-xs hover:bg-surface-container transition-colors" id="shareBtn">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>SHARE PIECE</span>
+</button>
+</div>
+<!-- White Glove Postal Checker Accordion -->
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-xs mt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-secondary">local_shipping</span>
+<span class="font-label-caps text-label-caps tracking-wider font-semibold">SAME-DAY WHITE GLOVE COURIER CHECK</span>
+</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Complimentary in NYC &amp; Hamptons metropolitan zones.</p>
+<div class="flex gap-space-xs mt-1">
+<input class="w-full px-space-md py-2 bg-surface text-on-surface font-body-sm text-body-sm placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container-lowest" id="postalInput" placeholder="Enter Zip Code (e.g. 10013)" type="text"/>
+<button class="px-space-md py-2 bg-on-surface text-surface font-label-caps text-label-caps tracking-widest uppercase hover:bg-secondary hover:text-white transition-colors" id="verifyPostalBtn">VERIFY</button>
+</div>
+<div class="hidden text-[12px] font-label-caps pt-1 text-emerald-800" id="postalFeedback"></div>
+</div>
+</div>
+<!-- Technical Specifications Accordion Stack -->
+<div class="flex flex-col gap-space-xs bg-surface-container-lowest p-space-md shadow-sm">
+<!-- Accordion Item 1 -->
+<div class="accordion-item bg-surface-container-low">
+<button class="accordion-btn w-full p-space-md flex items-center justify-between text-left font-label-caps text-label-caps tracking-widest text-on-surface font-semibold hover:bg-surface-container transition-colors">
+<span>01 / DESCRIPTION &amp; TAILORED FIT</span>
+<span class="material-symbols-outlined transition-transform duration-200 accordion-icon">expand_more</span>
+</button>
+<div class="accordion-content px-space-md pb-space-md text-on-surface-variant font-body-sm text-body-sm flex flex-col gap-space-sm">
+<p>Designed with an intentionally generous, drop-shoulder silhouette inspired by mid-century Parisian artist smocks. The Soren Trench features an articulated back inverted box pleat that opens gracefully in motion.</p>
+<ul class="list-disc pl-5 flex flex-col gap-1 text-[13px]">
+<li>Removable self-fabric belt with wrapped horn buckle</li>
+<li>Storm flap with concealed matte brass hardware snap</li>
+<li>Internal silk-bound seams for zero friction layering</li>
+<li>Model is 5'10" (178cm) wearing Atelier Size S</li>
+</ul>
+</div>
+</div>
+<!-- Accordion Item 2 -->
+<div class="accordion-item bg-surface-container-low">
+<button class="accordion-btn w-full p-space-md flex items-center justify-between text-left font-label-caps text-label-caps tracking-widest text-on-surface font-semibold hover:bg-surface-container transition-colors">
+<span>02 / MATERIAL &amp; SUSTAINABLE HARVEST</span>
+<span class="material-symbols-outlined transition-transform duration-200 accordion-icon">expand_more</span>
+</button>
+<div class="accordion-content hidden px-space-md pb-space-md text-on-surface-variant font-body-sm text-body-sm flex flex-col gap-space-sm">
+<p>Woven from 100% certified European flax linen harvested across the coastal fields of Normandy. Flax requires zero irrigation beyond natural rainwater and generates zero byproduct waste.</p>
+<div class="grid grid-cols-2 gap-space-sm text-[12px] font-label-caps bg-surface p-space-sm">
+<div>WEIGHT: 380 GSM (Heavyweight)</div>
+<div>BUTTONS: Upcycled Horn</div>
+<div>FINISH: Stone Washed with Enzyme</div>
+<div>ORIGIN: Normandy, France</div>
+</div>
+</div>
+</div>
+<!-- Accordion Item 3 -->
+<div class="accordion-item bg-surface-container-low">
+<button class="accordion-btn w-full p-space-md flex items-center justify-between text-left font-label-caps text-label-caps tracking-widest text-on-surface font-semibold hover:bg-surface-container transition-colors">
+<span>03 / COMPLIMENTARY SHIPPING &amp; 30-DAY TRIAL</span>
+<span class="material-symbols-outlined transition-transform duration-200 accordion-icon">expand_more</span>
+</button>
+<div class="accordion-content hidden px-space-md pb-space-md text-on-surface-variant font-body-sm text-body-sm flex flex-col gap-space-sm">
+<p>All AURA outerwear orders ship via carbon-neutral express courier in custom cedar-scented garment boxes with brass-finished cedar hangers included.</p>
+<p>Enjoy a 30-day trial period at home. Return or exchange seamlessly with our pre-printed prepaid DHL courier pickup tag.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Textile Interlude & Brand Narrative -->
+<section class="w-full bg-surface-container-high py-space-xl my-space-lg">
+<div class="max-w-[1440px] mx-auto px-margin">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg items-center">
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest font-semibold">CRAFTSMANSHIP MANIFESTO</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Engineered to soften with every decade.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Linen of this GSM caliber does not fray or tire; instead, it develops a deep, tactile character unique to the wearer's daily rituals.</p>
+</div>
+<div class="relative bg-surface-container aspect-square overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close up artisan hands delicately cutting Normandy flax fabric on an expansive wooden tailor cutting table in a bright atelier, architectural shears and measuring tape." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGoUG22abvsIeLnIS4XmuQ2P6RXHhQBvoOrhnOAohyrUtNA9ibrAkhD0W4UcFQ9qRkPnSJVaVnuYFCwIWfthikDGlrgk7RFUhnjnIY3_Rb3S7PjT6jGuZSCR-Llmbxp0OfBFu39oBt4td2g7NHLVn3XZq0RdBPpy5YyETLoBloeTJGkYm8AnU8Brn6XhgalCmygJO6-TZGq-rva7OdO8VGECjQX6_l1FZRYYB9eCzXfXbDFj47G2FY"/>
+</div>
+<div class="flex flex-col gap-space-md bg-surface p-space-xl">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">04</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider">ANNUAL PRODUCED RUNS</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">To prevent surplus waste, the Soren Trench is cut exclusively in numbered runs of 180 units per colorway. No seasonal landfill clearance.</p>
+<div class="flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest font-semibold">
+<span>READ THE COMPLETE SUSTAINABILITY CHARTER</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Verified Client Reviews & Ratings Breakdown Section -->
+<section class="w-full max-w-[1440px] mx-auto px-margin py-space-xl" id="reviewsSection">
+<div class="flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest font-semibold">PATRON EXPERIENCES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Client Reviews &amp; Notes</h2>
+</div>
+<button class="px-space-lg py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase hover:bg-surface-container-highest hover:text-on-surface transition-colors self-start md:self-auto">
+          WRITE A REVIEW
+        </button>
+</div>
+<!-- Rating Breakdown Bento -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter bg-surface-container-low p-space-xl">
+<!-- Overall Score Card -->
+<div class="md:col-span-4 flex flex-col justify-center gap-space-xs pr-space-md">
+<div class="flex items-baseline gap-space-sm">
+<span class="font-headline-lg text-[64px] leading-none font-serif text-on-surface">4.9</span>
+<span class="font-headline-sm text-headline-sm text-on-surface-variant">/ 5.0</span>
+</div>
+<div class="flex text-secondary text-lg">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">98% of clients recommend this piece. Based on 128 verified purchases worldwide.</p>
+<div class="flex items-center gap-2 mt-space-sm font-label-caps text-[11px] text-on-surface font-semibold tracking-wider">
+<span class="w-2 h-2 rounded-full bg-emerald-600"></span>
+            SIZING FIT: RUNS TRUE TO OVERSIZED FIT
+          </div>
+</div>
+<!-- Rating Distribution Bars -->
+<div class="md:col-span-8 flex flex-col justify-center gap-space-xs">
+<!-- 5 Stars -->
+<div class="flex items-center gap-space-sm text-body-sm">
+<span class="w-16 font-label-caps text-[11px] text-on-surface">5 STARS</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 92%;"></div>
+</div>
+<span class="w-10 text-right font-label-caps text-[11px] text-on-surface-variant">118</span>
+</div>
+<!-- 4 Stars -->
+<div class="flex items-center gap-space-sm text-body-sm">
+<span class="w-16 font-label-caps text-[11px] text-on-surface">4 STARS</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 6%;"></div>
+</div>
+<span class="w-10 text-right font-label-caps text-[11px] text-on-surface-variant">8</span>
+</div>
+<!-- 3 Stars -->
+<div class="flex items-center gap-space-sm text-body-sm">
+<span class="w-16 font-label-caps text-[11px] text-on-surface">3 STARS</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 2%;"></div>
+</div>
+<span class="w-10 text-right font-label-caps text-[11px] text-on-surface-variant">2</span>
+</div>
+<!-- 2 Stars -->
+<div class="flex items-center gap-space-sm text-body-sm">
+<span class="w-16 font-label-caps text-[11px] text-on-surface-variant">2 STARS</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-outline-variant" style="width: 0%;"></div>
+</div>
+<span class="w-10 text-right font-label-caps text-[11px] text-on-surface-variant">0</span>
+</div>
+<!-- 1 Star -->
+<div class="flex items-center gap-space-sm text-body-sm">
+<span class="w-16 font-label-caps text-[11px] text-on-surface-variant">1 STAR</span>
+<div class="flex-1 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-outline-variant" style="width: 0%;"></div>
+</div>
+<span class="w-10 text-right font-label-caps text-[11px] text-on-surface-variant">0</span>
+</div>
+</div>
+</div>
+<!-- Verified Photo Reviews Carousel Strip -->
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-caps text-label-caps tracking-widest text-on-surface font-semibold">PATRON WEAR JOURNAL (18 PHOTOS)</span>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md">
+<div class="relative aspect-square overflow-hidden bg-surface-container group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Customer review photo of woman wearing the oatmeal linen trench over white tee in a sunny art gallery setting in Milan." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRgOx2Oc-8rtvV13uKmmve15-4NsK5SGPenZ5cxyPcmbltpPtPfKWNtdNBFmopCst6Y0LIwj1bPrKalBnpk5OtL9xXJhMHEBc9wZmolddR1gjY_Aj9foC_E0VbPezCk8kS_uI7nREfxzpzX7kxjTVcFxrD5FaP-5xZZOewEzMXNmZoYSvMHp4jMyP2XvCJPOHADjTd-yqN1uUoiqB7P46nhudDL1-aMSgp_D4-boq4Btveeti9jlzd"/>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-on-surface font-label-caps text-[9px] px-2 py-0.5">Clara V. — Paris</span>
+</div>
+<div class="relative aspect-square overflow-hidden bg-surface-container group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Customer review mirror selfie highlighting the horn buttons and structured lapel of the trench coat in daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBapm2IYhzE7NSbf9rvP6XAX_fOjmw8jsOhN58bj8mWmowv6QU2y6swgBg8dQ5YJ2ObcVWyAw5qhAz67GTCaYdaaNYzJxsS02A4n3lBzbckr2aWCtMSFI-7bed5lh-jnRmKTo_Yjac5oeyjGqiZ7RDUOb5vuJ5nACv2jF4Dtsr2HtBWeABSuVGi9Lle0Gm-46HxwSoSCR0fZJRCOewEyCOD0Tn4pwsQLdKePQHCU6d0ySfv0_iRejxC"/>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-on-surface font-label-caps text-[9px] px-2 py-0.5">Elena M. — London</span>
+</div>
+<div class="relative aspect-square overflow-hidden bg-surface-container group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Customer candid street photography of woman walking holding leather tote bag wearing the Soren trench coat in New York Soho." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFlig2OxPfBONtpcp1ztjrmbji8VRhBI5GW5NTmSvlfPiSjR99sSLEo7IdWwfB_eOn63wV4XnVbJTtDnJ4j2Lup98vds2OeNPIJb79zTYheYpLxQyJAxQYaJI_9SieXl7sHR43HMwGl0Xju2SaQG7IRraZ2CPoAHjHBpYAB2YtDHqTgAoPSV7MzRSsoiJYdtCN5UaFkDllLQdYL56RltTNju7kqOCnDpstQqqHK9PZkHSG_mDQQ15n"/>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-on-surface font-label-caps text-[9px] px-2 py-0.5">Hana T. — Tokyo</span>
+</div>
+<div class="relative aspect-square overflow-hidden bg-surface-container group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Customer review photo focused on the deep pleat details and fabric flow while sitting at an outdoor terrace cafe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhZiiuaoiNUaQuqa6nreaDNHpkZL87Ap67mbGXe0jzBmAnCo74raVFf7i_qaEEYr-XEkR8SZC4UYX1C4YYfNgeYmtgc1-GbdeH2BBES4_N1vrZDr2HJGG5xwinHhKdNzwj50Ucq6krG3G-v7ikxUyNab5CIN1c-1dFmwcp5n3DhX9o46-jCro3qiXgHXTX6WGphLTS-xuu8NNOe7JwkVFqXR_QaW1ZSXSg6eMI74G_mTQ28y3PHNC5"/>
+<span class="absolute bottom-2 left-2 bg-surface/90 text-on-surface font-label-caps text-[9px] px-2 py-0.5">Sarah K. — Stockholm</span>
+</div>
+</div>
+</div>
+<!-- Review Testimonials Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg pt-space-md">
+<!-- Review 1 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col gap-space-sm justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex text-secondary text-sm">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-caps text-[11px] text-on-surface-variant">Verified Buyer • Size M</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">"The weight of this linen is extraordinary."</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Most linen trenches feel flimsy and rumple poorly; this 380 GSM cloth has substantial presence, drape, and weather resistance. The pleated back makes walking effortless and looks sculpturally stunning.</p>
+</div>
+<div class="flex items-center justify-between pt-space-md font-label-caps text-label-caps text-on-surface-variant">
+<span class="font-semibold text-on-surface">Camille de Montparnasse</span>
+<span>Reviewed March 12, 2025</span>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col gap-space-sm justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex text-secondary text-sm">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-caps text-[11px] text-on-surface-variant">Verified Buyer • Size S</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">"Timeless investment piece for travel."</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Traveled from London to Kyoto with this folded in my weekender. It shook out naturally and took on that gorgeous lived-in patina. Horn buttons and interior binding are top atelier quality.</p>
+</div>
+<div class="flex items-center justify-between pt-space-md font-label-caps text-label-caps text-on-surface-variant">
+<span class="font-semibold text-on-surface">Julian K. (Architect)</span>
+<span>Reviewed February 28, 2025</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Complete The Look & Curated Recommendations (Carousel Layout) -->
+<section class="w-full bg-surface-container-low py-space-xl mt-space-lg">
+<div class="max-w-[1440px] mx-auto px-margin flex flex-col gap-space-lg">
+<!-- Section Title & Arrows -->
+<div class="flex items-end justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest font-semibold">ATELIER WARDROBE COMPOSITION</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Complete The Look</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="w-10 h-10 bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">chevron_left</span>
+</button>
+<button class="w-10 h-10 bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- 4 Item Product Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Piece 1 -->
+<div class="group flex flex-col bg-surface overflow-hidden">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<span class="absolute top-space-sm left-space-sm font-label-caps text-[10px] tracking-widest bg-surface/90 text-on-surface px-2 py-0.5">CORE WARDROBE</span>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist ecru raw silk wide-leg trouser on pale background, structured clean silhouette, quiet luxury tailored drape." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWc-j0qblfGVz1MrrteTp4gb2ZHmYg1Q7lrzEs_WHj_Ny1HJDOHvku-wqTUhRBvrnOMeddKBoFfC9fAXJPCMALnxzCatE585wncuU9sMqCfY7lm-ibFeqMR8GDX-efSV-egJEHoVoy8Z-Vb1qTy_gVWst5XX2rbrNSQi-fiswkCVcUcLNgxjn_2GDE3usTGnXbrrC8NlXfbPJDF_mN-mBx8hMiHY6aG6reWH34UcL5CeUf0hxwqR8J"/>
+<button class="absolute bottom-0 left-0 right-0 py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">add</span> QUICK ADD
+            </button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-caps text-[10px] text-on-surface-variant tracking-widest">BOTTOMS • RAW SILK</span>
+<a class="font-body-md text-body-md text-on-surface font-medium hover:text-secondary transition-colors" href="#">Vea Pleated Wide-Leg Trouser</a>
+<span class="font-label-md text-label-md text-on-surface font-semibold">$295 USD</span>
+</div>
+</div>
+<!-- Piece 2 -->
+<div class="group flex flex-col bg-surface overflow-hidden">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<span class="absolute top-space-sm left-space-sm font-label-caps text-[10px] tracking-widest bg-surface/90 text-on-surface px-2 py-0.5">NEW CAPSULE</span>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxury ribbed tissue silk knit tank in bone color, minimalist fine yarn texture, editorial studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX3nxYN-LoNHN8wtetZJB3d4Eapobcs0IhHWbp9WWVN3vzYXch16mo2kg-DjOtl3QLFDORdAYV1Ewo1q14E4jaRREn-NPpxv4n4nUncKGuF1V-5KF5AVJbON7jU7GOxfHnT4Y-TuJjOB4exct_d0QdK7keJnjYJtFH6Cmbb1wA0fJPK8yhUxb9NLzerBDYdsKHQUzr4z--f18bDpTDZ6tTyU3fHk5ZTSGC9AmMdCrSaRlOKCkABwfp"/>
+<button class="absolute bottom-0 left-0 right-0 py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">add</span> QUICK ADD
+            </button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-caps text-[10px] text-on-surface-variant tracking-widest">KNITWEAR • TISSUE SILK</span>
+<a class="font-body-md text-body-md text-on-surface font-medium hover:text-secondary transition-colors" href="#">Cato Seamless Ribbed Tank</a>
+<span class="font-label-md text-label-md text-on-surface font-semibold">$165 USD</span>
+</div>
+</div>
+<!-- Piece 3 -->
+<div class="group flex flex-col bg-surface overflow-hidden">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<span class="absolute top-space-sm left-space-sm font-label-caps text-[10px] tracking-widest bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 font-semibold">LIMITED OBJECT</span>
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal vegetable tanned espresso brown calfskin leather structured shoulder tote bag with clean brass lock." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5XmsgbmpRHXP3MOy0s-u7d4CQIIjiOBJQxOxP0XcLQkBJ60iRgOuzxgqFyNfGDD4Z0ialW7P8XH0OTbcvxjiDEx9VhLYM2RLw1eDJVqVfe5Sr4H5YE-4_19KbGhr3b7jDx5oeNJs2FL97cuJldySYi_XQ8fDzUszfxs-4h5NZJvj2c-AyS0n7Gux-I02LU4pXEk7v7revovpO2cDjjkTQPNNllXERshD-Dk37P0LkEdZMcCL26aJQ"/>
+<button class="absolute bottom-0 left-0 right-0 py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">add</span> QUICK ADD
+            </button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-caps text-[10px] text-on-surface-variant tracking-widest">LEATHER GOODS</span>
+<a class="font-body-md text-body-md text-on-surface font-medium hover:text-secondary transition-colors" href="#">Kanso Sculptural Calfskin Tote</a>
+<span class="font-label-md text-label-md text-on-surface font-semibold">$580 USD</span>
+</div>
+</div>
+<!-- Piece 4 -->
+<div class="group flex flex-col bg-surface overflow-hidden">
+<div class="relative aspect-[3/4] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Handcrafted minimalist leather slide sandals in warm natural tan leather resting on architectural stone slab." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDT7AWEz_4d4O0NKAahMuj2UVCmqcnIZSad6EQARkN3ZzvAepZ4WhFxshFbF-x1_SZoK3fIqa4AVkQ5sNgCI38RUnzs0d_-5SpfEghc794UTEpR75UGXBC1yIjokPgDnKhLr8TBJKwp7fYKmlwwj6wf4FF5xHIa8stQHVWQecguaiY7vfiUzV0pLZsB77DM-sL4Z9d42vuwYt6TZJvVjFMGmH7fmlwrjBrs1YG1sc8gDjBSgXfBjsgh"/>
+<button class="absolute bottom-0 left-0 right-0 py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">add</span> QUICK ADD
+            </button>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs">
+<span class="font-label-caps text-[10px] text-on-surface-variant tracking-widest">FOOTWEAR • TUSCANY</span>
+<a class="font-body-md text-body-md text-on-surface font-medium hover:text-secondary transition-colors" href="#">Tivoli Raw Edge Leather Slide</a>
+<span class="font-label-md text-label-md text-on-surface font-semibold">$340 USD</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Size Guide Modal Backdrop -->
+<div class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-space-md" id="sizeGuideModal">
+<div class="bg-surface max-w-2xl w-full p-space-xl shadow-2xl relative flex flex-col gap-space-lg">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest">ATELIER MEASUREMENTS</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Outerwear Size Guide (Inches &amp; CM)</h3>
+</div>
+<button class="p-1 hover:bg-surface-container-low transition-colors" id="closeSizeGuideModal">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">The Soren Trench has an intentionally relaxed, architectural fit. If you prefer a closer, traditional tailored silhouette, we recommend sizing down one size.</p>
+<div class="overflow-x-auto bg-surface-container-low p-space-md">
+<table class="w-full text-left font-label-caps text-[11px] tracking-wider text-on-surface">
+<thead class="bg-surface-container text-on-surface font-bold">
+<tr>
+<th class="p-2">SIZE</th>
+<th class="p-2">CHEST</th>
+<th class="p-2">SHOULDER</th>
+<th class="p-2">SLEEVE</th>
+<th class="p-2">LENGTH</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-variant">
+<tr><td class="p-2 font-bold">XS (US 0-2)</td><td class="p-2">42 in / 106 cm</td><td class="p-2">18.5 in</td><td class="p-2">31.0 in</td><td class="p-2">47 in</td></tr>
+<tr><td class="p-2 font-bold">S (US 4-6)</td><td class="p-2">44 in / 112 cm</td><td class="p-2">19.0 in</td><td class="p-2">31.5 in</td><td class="p-2">48 in</td></tr>
+<tr class="bg-secondary-fixed/30"><td class="p-2 font-bold text-secondary">M (US 8-10)</td><td class="p-2 font-bold text-secondary">46 in / 117 cm</td><td class="p-2 font-bold text-secondary">19.5 in</td><td class="p-2 font-bold text-secondary">32.0 in</td><td class="p-2 font-bold text-secondary">48.5 in</td></tr>
+<tr><td class="p-2 font-bold">L (US 12-14)</td><td class="p-2">48 in / 122 cm</td><td class="p-2">20.0 in</td><td class="p-2">32.5 in</td><td class="p-2">49 in</td></tr>
+<tr><td class="p-2 font-bold">XL (US 16)</td><td class="p-2">51 in / 130 cm</td><td class="p-2">20.5 in</td><td class="p-2">33.0 in</td><td class="p-2">49.5 in</td></tr>
+</tbody>
+</table>
+</div>
+<div class="flex justify-end">
+<button class="px-space-lg py-2.5 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase" id="closeSizeGuideModalBtn">
+          GOT IT
+        </button>
+</div>
+</div>
+</div>
+<!-- Inline Client Interactions Script -->
+<script>
+    // Color Swatch Selection
+    const swatches = document.querySelectorAll('.color-swatch-btn');
+    const colorLabel = document.getElementById('currentColorLabel');
+    swatches.forEach(btn => {
+      btn.addEventListener('click', () => {
+        swatches.forEach(s => s.classList.remove('ring-2', 'ring-primary'));
+        btn.classList.add('ring-2', 'ring-primary');
+        const chosen = btn.getAttribute('data-color');
+        if (colorLabel) colorLabel.textContent = chosen;
+      });
+    });
+
+    // Size Selection
+    const sizePills = document.querySelectorAll('.size-pill');
+    sizePills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        sizePills.forEach(p => {
+          p.classList.remove('bg-primary', 'text-on-primary', 'font-bold');
+          p.classList.add('bg-surface-container-low', 'text-on-surface');
+        });
+        pill.classList.remove('bg-surface-container-low', 'text-on-surface');
+        pill.classList.add('bg-primary', 'text-on-primary', 'font-bold');
+      });
+    });
+
+    // Quantity Selector
+    const qtyVal = document.getElementById('qtyVal');
+    const qtyMinus = document.getElementById('qtyMinus');
+    const qtyPlus = document.getElementById('qtyPlus');
+    let currentQty = 1;
+
+    if (qtyMinus && qtyPlus && qtyVal) {
+      qtyMinus.addEventListener('click', () => {
+        if (currentQty > 1) {
+          currentQty--;
+          qtyVal.textContent = currentQty;
+        }
+      });
+      qtyPlus.addEventListener('click', () => {
+        if (currentQty < 8) {
+          currentQty++;
+          qtyVal.textContent = currentQty;
+        }
+      });
+    }
+
+    // Accordions Toggle
+    const accordionBtns = document.querySelectorAll('.accordion-btn');
+    accordionBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('.accordion-icon');
+        const isHidden = content.classList.contains('hidden');
+
+        if (isHidden) {
+          content.classList.remove('hidden');
+          if (icon) icon.classList.add('rotate-180');
+        } else {
+          content.classList.add('hidden');
+          if (icon) icon.classList.remove('rotate-180');
+        }
+      });
+    });
+
+    // Wishlist Toggle
+    const wishlistBtn = document.getElementById('wishlistBtn');
+    const heartIcon = document.getElementById('heartIcon');
+    const wishlistText = document.getElementById('wishlistText');
+    let isWishlisted = false;
+
+    if (wishlistBtn && heartIcon) {
+      wishlistBtn.addEventListener('click', () => {
+        isWishlisted = !isWishlisted;
+        if (isWishlisted) {
+          heartIcon.textContent = 'favorite';
+          heartIcon.classList.add('text-secondary');
+          wishlistText.textContent = 'SAVED TO ARCHIVE';
+        } else {
+          heartIcon.textContent = 'favorite_border';
+          heartIcon.classList.remove('text-secondary');
+          wishlistText.textContent = 'SAVE TO ARCHIVE';
+        }
+      });
+    }
+
+    // Add to Bag Micro Interaction
+    const addBtn = document.getElementById('addToBagBtn');
+    if (addBtn) {
+      addBtn.addEventListener('click', () => {
+        const originalText = addBtn.innerHTML;
+        addBtn.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin">refresh</span><span>ADDING TO ARCHIVE...</span>';
+        setTimeout(() => {
+          addBtn.innerHTML = '<span class="material-symbols-outlined text-[18px]">check</span><span>ADDED TO BAG (VIEW)</span>';
+          setTimeout(() => {
+            addBtn.innerHTML = originalText;
+          }, 2400);
+        }, 500);
+      });
+    }
+
+    // Postal Delivery Checker
+    const verifyPostalBtn = document.getElementById('verifyPostalBtn');
+    const postalInput = document.getElementById('postalInput');
+    const postalFeedback = document.getElementById('postalFeedback');
+
+    if (verifyPostalBtn && postalInput && postalFeedback) {
+      verifyPostalBtn.addEventListener('click', () => {
+        const val = postalInput.value.trim();
+        if (val.length >= 5) {
+          postalFeedback.classList.remove('hidden');
+          postalFeedback.innerHTML = '✓ Zip Code eligible: Same-day White Glove courier available before 2:00 PM EST.';
+        } else {
+          postalFeedback.classList.remove('hidden');
+          postalFeedback.innerHTML = 'Please enter a valid 5-digit postal code.';
+          postalFeedback.classList.add('text-secondary');
+        }
+      });
+    }
+
+    // Size Guide Modal
+    const sizeModal = document.getElementById('sizeGuideModal');
+    const openSizeBtn = document.getElementById('openSizeGuideModal');
+    const closeSizeBtn = document.getElementById('closeSizeGuideModal');
+    const closeSizeBtn2 = document.getElementById('closeSizeGuideModalBtn');
+
+    if (openSizeBtn && sizeModal) {
+      openSizeBtn.addEventListener('click', () => {
+        sizeModal.classList.remove('hidden');
+        sizeModal.classList.add('flex');
+      });
+    }
+    const closeModal = () => {
+      if (sizeModal) {
+        sizeModal.classList.add('hidden');
+        sizeModal.classList.remove('flex');
+      }
+    };
+    if (closeSizeBtn) closeSizeBtn.addEventListener('click', closeModal);
+    if (closeSizeBtn2) closeSizeBtn2.addEventListener('click', closeModal);
+
+    // Share Trigger
+    const shareBtn = document.getElementById('shareBtn');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', () => {
+        if (navigator.share) {
+          navigator.share({
+            title: 'Soren Pleated Linen Trench — AURA',
+            url: window.location.href
+          }).catch(() => {});
+        } else {
+          navigator.clipboard.writeText(window.location.href);
+          const orig = shareBtn.innerHTML;
+          shareBtn.innerHTML = '<span class="material-symbols-outlined text-[18px]">done</span><span>LINK COPIED</span>';
+          setTimeout(() => { shareBtn.innerHTML = orig; }, 1800);
+        }
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-xl"><div class="max-w-[1440px] mx-auto px-margin pt-space-xl pb-space-lg"><div class="bg-surface p-space-xl mb-space-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="max-w-xl"><span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-space-xs">PRIVATE ARCHIVES</span><h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">First access to curations &amp; seasonal drops</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Receive deliberate editorial notes, member-exclusive atelier invites, and advance lookbooks.</p></div><form class="w-full md:w-auto flex flex-col sm:flex-row gap-space-xs items-stretch"><input class="px-space-md py-3 bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none min-w-[280px]" placeholder="Enter your email address" type="email"/><button class="px-space-lg py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest hover:bg-surface-container-highest hover:text-on-surface transition-colors uppercase" type="submit">Subscribe</button></form></div><div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg py-space-lg"><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">SHOP</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="apparel" href="#">Apparel</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="living" href="#">Living &amp; Objects</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="footwear" href="#">Footwear</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="accessories" href="#">Leather Accessories</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="gift-cards" href="#">Digital Vouchers</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">CLIENT SERVICE</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge" href="#">Atelier Concierge</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="shipping" href="#">Complimentary Shipping</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="returns" href="#">Exchanges &amp; Returns</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="order-tracking" href="#">Order Tracking</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="garment-care" href="#">Garment Care Guide</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">COMPANY</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="atelier-story" href="#">The Atelier Story</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="sustainability" href="#">Sustainability Charter</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="press" href="#">Press &amp; Editorials</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="careers" href="#">Careers</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="archive" href="#">Seasonal Archives</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">REPOSITORIES</span><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-xs">Curated from Paris, Kyoto, and New York. Pieces produced in numbered batches.</p><div class="flex items-center gap-space-xs text-on-surface-variant pt-space-xs"><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">VISA</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">MASTERCARD</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">AMEX</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">APPLE PAY</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-sm text-label-sm"><div class="flex items-center gap-space-lg"><span class="font-body-sm text-body-sm">© 2025 AURA Living &amp; Apparel Inc. All rights reserved.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="terms" href="#">Terms of Service</a><div class="flex items-center gap-space-xs ml-space-sm"><span class="cursor-pointer text-on-surface">United States (USD $)</span><span class="text-outline-variant">•</span><span class="cursor-pointer hover:text-on-surface transition-colors">English (US)</span></div></div></div></div></footer></body></html>

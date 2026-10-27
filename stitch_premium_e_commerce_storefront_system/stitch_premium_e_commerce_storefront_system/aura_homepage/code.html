@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container":"#efeeeb","tertiary":"#000000","secondary-fixed":"#ffdbce","surface-variant":"#e3e2e0","surface-tint":"#5f5e5e","on-tertiary":"#ffffff","surface-container-high":"#e9e8e5","surface-bright":"#faf9f6","tertiary-container":"#1b1c1a","secondary":"#9b4420","on-surface-variant":"#444748","primary-fixed-dim":"#c8c6c5","outline-variant":"#c4c7c7","secondary-fixed-dim":"#ffb59a","on-primary-container":"#858383","background":"#faf9f6","on-secondary-fixed":"#380d00","surface":"#faf9f6","on-primary-fixed":"#1c1b1b","inverse-primary":"#c8c6c5","surface-container-low":"#f4f3f1","on-secondary-fixed-variant":"#7c2e0a","tertiary-fixed":"#e3e2df","on-tertiary-container":"#848481","on-secondary":"#ffffff","outline":"#747878","surface-container-highest":"#e3e2e0","error-container":"#ffdad6","on-secondary-container":"#752905","tertiary-fixed-dim":"#c7c7c3","error":"#ba1a1a","primary":"#000000","on-error":"#ffffff","surface-container-lowest":"#ffffff","on-background":"#1a1c1a","on-primary-fixed-variant":"#474646","inverse-on-surface":"#f2f1ee","on-surface":"#1a1c1a","on-error-container":"#93000a","secondary-container":"#fe9166","primary-fixed":"#e5e2e1","on-tertiary-fixed-variant":"#464744","primary-container":"#1c1b1b","on-primary":"#ffffff","on-tertiary-fixed":"#1b1c1a","surface-dim":"#dbdad7","inverse-surface":"#2f312f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"0.75rem","space-md":"1rem","margin-mobile":"1.25rem","space-xl":"2.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-lg":"1.5rem","margin":"3rem","gutter":"1.5rem"},"fontFamily":{"headline-sm":["Playfair Display"],"label-caps":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-hero-mobile":["Playfair Display"],"display-hero":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"headline-lg":["Playfair Display"]},"fontSize":{"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"500"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-low px-margin"><div class="max-w-[1440px] mx-auto h-9 flex items-center justify-between font-label-caps text-label-caps tracking-widest text-on-surface-variant"><div class="flex items-center gap-space-sm"><span class="cursor-pointer hover:text-on-surface transition-colors">USD ($)</span><span class="text-outline-variant">/</span><span class="cursor-pointer hover:text-on-surface transition-colors">EN</span></div><div class="flex items-center gap-space-xs"><span class="text-secondary font-semibold">SPRING ATELIER LAUNCH</span><span class="text-outline-variant">—</span><span>Complimentary worldwide express shipping on orders over $250</span></div><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">CONCIERGE</a><button class="flex items-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[16px]">close</span></button></div></div></div><div class="h-20"><div class="max-w-[1440px] mx-auto h-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-lg"><img alt="AURA Wordmark Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XVW9E2jfXFXVxK3eFfnckyO8-D1oCuoe98HUhHmM7gGWPYhQEgLgIkIpT4OPDDOv76xDdF_jyq8VF-1Pq7-dVYSBdbwZ-3tcDs36YuGIjn9RjhZHnr_ThaCkQ8eygDvBHMvO-HIT74q6LEckJgBbOZO5_A2lNM7dcfDvEsI9dbS4DXS2oiOHrK97zL8XTDYeOyZU3HwTrYNsIo334zOJQNEhx2XxpAbvIVeV17jDAroI9vGmm4n-47Y8E"/><span class="font-headline-sm text-headline-sm tracking-wider text-on-surface hidden xl:inline">AURA</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-on-surface font-semibold underline underline-offset-8 decoration-1 decoration-secondary"><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" data-path="shop" href="#">SHOP <span class="text-[9px] text-secondary">▾</span></a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="categories" href="#">CATEGORIES</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="new-arrivals" href="#">NEW ARRIVALS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="best-sellers" href="#">BEST SELLERS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="offers" href="#">OFFERS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="journal" href="#">JOURNAL</a></nav><div class="flex items-center gap-space-md"><button class="hidden md:flex items-center gap-space-sm px-space-sm py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-label-sm text-label-sm">Search atelier...</span><kbd class="font-label-caps text-[9px] bg-surface-container px-1.5 py-0.5 rounded text-on-surface-variant">⌘K</kbd></button><a class="relative p-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-surface-container-highest text-on-surface font-label-caps text-[9px] flex items-center justify-center font-semibold">3</span></a><a class="relative p-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="cart" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-primary text-on-primary font-label-caps text-[9px] flex items-center justify-center font-semibold">2</span></a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-surface-variant cursor-pointer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5oOg54sGeZGQbn62-4Aue6C_dPScdUBOMue7OKioaeqlOMJW0bLlaOag6X3snYe34DFDv32YljkZnqZr9uyvnk7zh462rh1PK1_wDPakEd5huC-uKrQm85GfJobwXjGAFDv_zKW2rVjx07W2unAyNn7ol4wetIhMCZSibNNkiT7ULD0z8BS4VwFl8cfK_UEoI_wUQ_9AetiFATaaR_MtkzF8rHFNjQVAQf19PKPsdnR02Bl7LKs8o"/></div></div></div></div></header><main class="w-full pt-[116px] bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-low">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-xl lg:py-28">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter items-center">
+<!-- Text Column -->
+<div class="lg:col-span-6 flex flex-col items-start z-10">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 mb-space-md bg-surface text-secondary font-label-caps text-label-caps tracking-widest shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+            SPRING / SUMMER 2025 RELEASE
+          </div>
+<h1 class="font-display-hero text-display-hero text-on-surface mb-space-md tracking-tight leading-[1.08]">
+            The Architecture <br class="hidden sm:inline"/>of Ease <span class="italic font-normal font-headline-lg text-on-surface-variant block sm:inline">— Edition 04</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-space-xl leading-relaxed">
+            Tactile Japanese linens, sculpted ceramics, and timeless everyday silhouettes crafted for enduring life. Designed in silence, realized in raw integrity.
+          </p>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md w-full sm:w-auto">
+<a class="px-space-xl py-3.5 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest text-center hover:bg-surface-container-highest hover:text-on-surface transition-all duration-200 uppercase shadow-sm" href="#bestsellers">
+              Shop New Arrivals
+            </a>
+<a class="px-space-xl py-3.5 bg-surface text-on-surface font-label-caps text-label-caps tracking-widest text-center hover:bg-surface-container transition-all duration-200 uppercase shadow-sm flex items-center justify-center gap-2" href="#curations">
+              Explore Atelier Lookbook
+              <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+<!-- Editorial metadata footnote -->
+<div class="mt-space-xl pt-space-md flex items-center gap-space-lg text-on-surface-variant font-label-caps text-label-caps tracking-wider">
+<span>BATCH NO. 04-2025</span>
+<span class="text-surface-variant">•</span>
+<span>EDITION OF 450 CERTIFIED</span>
+<span class="text-surface-variant">•</span>
+<span>KYOTO &amp; PARIS STUDIOS</span>
+</div>
+</div>
+<!-- Asymmetric Media Composition -->
+<div class="lg:col-span-6 relative mt-space-md lg:mt-0">
+<div class="relative w-full aspect-[4/5] bg-surface-container overflow-hidden shadow-md group">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Editorial lookbook portrait of an elegant and serene muse wearing an ecru Japanese pleated linen coat in a sunlit modernist concrete architectural courtyard with natural stone sculptures, soft shadows, warm natural daylight, high fashion minimalism." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2-orTURM6XgrqjtccO4lm4YTj9Xt5-JBQ9CiwSjOS5a58eDGVSKXa4unvw9YU-ZdbELblALbTzaD9ULtDIUAN1XvBtrpc6zAXhRVOmiLdbWlSPXDuwwmVhnfzok447iBj9oSWAuqpmR42Cbj6foFMG1TPhg8gB3Dh6BezUhhdtVgF-SMtc_YPYEL58iQJHFszLAERWCY_3_CeRJKWfYBzWbd7SwBnehG9XEJVWJan8ZI9EZwrCOCV"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent pointer-events-none"></div>
+<!-- Floating Overlay Card -->
+<div class="absolute bottom-6 left-6 right-6 p-space-md bg-surface/90 backdrop-blur-md shadow-sm flex items-center justify-between">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest block">LOOK 04.1</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Pleated Trench in Raw Oatmeal</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">$420 USD</span>
+</div>
+</div>
+<!-- Secondary Overlapping Specimen Card -->
+<div class="hidden sm:flex absolute -bottom-8 -left-10 w-48 h-56 bg-surface shadow-xl p-2.5 flex-col justify-between z-20">
+<div class="w-full h-36 overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Close up macro texture of tactile organic woven unbleached raw linen fabric with subtle slub texture and artisanal hand-finished seams, warm ecru studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAf3sWb6UPoxjpc11KvS3_356HjiMqJI06TPtqANWgH4jFvubaOswEuZAi66jMTcJrjHZ0SHjltFL2wBxMxWbImYz8YJ8cTYnW3O-qFKST_18EJaT1sltelFaeg6zXl_Vv0_AJJljVt8KfLVJV9sJ4_otVtg6OroyvclSOmlrcHKsuGWPkaq8zb-5QNppJ720YtKFng5k46NbAAUrGybsoqNVLT14hJHKlM_rgLVrBzbtPewyfDCyWa"/>
+</div>
+<div class="px-1 py-0.5">
+<p class="font-label-caps text-[10px] text-on-surface-variant">MATERIAL SPECIFICATION</p>
+<p class="font-label-sm text-label-sm text-on-surface font-medium truncate">100% Oeko-Tex Flac Linen</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CATEGORIES: INTERACTIVE VISUAL TILES -->
+<section class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-1">CURATED DEPARTMENTS</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Shop by Collection</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
+        Every object and garment adheres to an archival philosophy of restrained proportion and tactile integrity.
+      </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Tile 1 -->
+<a class="group relative aspect-[3/4] bg-surface-container overflow-hidden shadow-sm flex flex-col justify-end p-space-lg" href="#catalog">
+<img class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Editorial fashion still of an oversized tailored ecru silhouette blazer drape against a textured pale plaster wall, soft side directional natural sunlight, ultra-refined minimalist aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsfs7P9yw2WpTI4qBhhDjYIo8YobujzENIcEdu5-9vUT7KPcBYPL6yCC3ijR5oS3wzO1PzMsZtNDFQkV7cPyg0Zth4ZL2P-UXYughN-OQhwZZjjtYXxwKREcI1eRCjDoEPBtfXmQoQdNlMKy9TwDOaaCyTONrE-MZNyIUREVpEbQnbi-oyYgWKbg3tdk-WwvaPVB0foCRC2XhayviJULsVxMkZxR-CGoTGtqpU0KnqKfHkI8YasGcu"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps tracking-widest text-surface-variant block mb-1">COLLECTION I</span>
+<h3 class="font-headline-sm text-headline-sm tracking-wide mb-1">Ready-to-Wear</h3>
+<p class="font-label-sm text-label-sm text-surface-container-high font-medium">148 pieces available</p>
+</div>
+</a>
+<!-- Tile 2 -->
+<a class="group relative aspect-[3/4] bg-surface-container overflow-hidden shadow-sm flex flex-col justify-end p-space-lg" href="#catalog">
+<img class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Sculptural handcrafted ceramic vase and coarse textured stoneware vessel arranged on a raw travertine pedestal with delicate shadows, warm earthy taupe tones, zen wabi-sabi gallery presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5FrnqL_eAMpF8zPPXp-q1o7bS5ZN_T48NMWw_c0Enj3gizf8LrxTy3yYL4UMiYpYecOuK-cWXHdTzvZIvQwF4OQvJPGV6Gpr9AlmJKNaT-Eq3HvMmwEYq1vvmF9bQugmkq6t3-oJCMhRKXBJul0qLIW_pIi_WfKEGWdbzFU7O5pM1rrtP0oLTn9Uq6r4Vu3BQ6zCe5jTCURs6WgDvDpaJwMhdSN3gvs3DhyDHJnmkCrdzwmGDqCjb"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps tracking-widest text-surface-variant block mb-1">COLLECTION II</span>
+<h3 class="font-headline-sm text-headline-sm tracking-wide mb-1">Sculptural Living &amp; Objects</h3>
+<p class="font-label-sm text-label-sm text-surface-container-high font-medium">84 pieces available</p>
+</div>
+</a>
+<!-- Tile 3 -->
+<a class="group relative aspect-[3/4] bg-surface-container overflow-hidden shadow-sm flex flex-col justify-end p-space-lg" href="#catalog">
+<img class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Artisanal hand-stitched butter-soft vegetable-tanned leather slip-on loafers resting on a warm natural limestone block, soft daylight, editorial product photograph." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANOhOZ77WNgbpoOSRo4aor4tR7p_CPXpk7GAsLtXsZ0SQo1NaOq0SQS0wbuD9ssQ7Se4hzRAJtKJh6iTfkprOgaDfjr3PIDq9HOPOJwB68NctkJrhey4hqSAGwRo4hFUYPBWPrEvHHUxN65gk9X4JAmWOMVfto8mSJVHXrpeSIFte6dOyuu4BHNN_jZDRNVgNnAmtnnpw1RaIyab1ayMrenfSNqLh2xCIkhxrfMt-LVwIvVw5HVDAz"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps tracking-widest text-surface-variant block mb-1">COLLECTION III</span>
+<h3 class="font-headline-sm text-headline-sm tracking-wide mb-1">Handcrafted Footwear</h3>
+<p class="font-label-sm text-label-sm text-surface-container-high font-medium">36 pieces available</p>
+</div>
+</a>
+<!-- Tile 4 -->
+<a class="group relative aspect-[3/4] bg-surface-container overflow-hidden shadow-sm flex flex-col justify-end p-space-lg" href="#catalog">
+<img class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Brushed solid bronze ring and minimalist frosted glass botanical perfume vial placed on warm weathered raw wood, sensual soft studio highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCynoz1N_KQvpeY3LqngvD8k-dV2QrDamsL8z9dzKkD_JVgKsm7wXJaZz5fbHa0lvp26tWBjUo5GnDA_bv2EOrWpDi43y3Co8F05kUyfWWd63_5w6Y6AHZdxf4s49Mv4S4IQIZQ17PTMjxFrNbJgctYm2errZ20ExVK1Q0d0xJXjqzHFZU2cMIe7zmb4IaNYS0ONjgFOMcmSrI682IRhXw-aoBLSDwnoda_QbHuF4H6bCteiZxIFXNB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/20 to-transparent"></div>
+<div class="relative z-10 text-on-primary">
+<span class="font-label-caps text-label-caps tracking-widest text-surface-variant block mb-1">COLLECTION IV</span>
+<h3 class="font-headline-sm text-headline-sm tracking-wide mb-1">Fine Jewelry &amp; Scents</h3>
+<p class="font-label-sm text-label-sm text-surface-container-high font-medium">52 pieces available</p>
+</div>
+</a>
+</div>
+</section>
+<!-- BEST SELLERS CATALOG SECTION -->
+<section class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl" id="bestsellers">
+<div class="flex flex-col md:flex-row md:items-center justify-between mb-space-lg gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-1">PERENNIAL FAVORITES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Signature Roster</h2>
+</div>
+<!-- Category Filter Tabs -->
+<div class="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0" id="filter-container">
+<button class="px-space-md py-2 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest filter-btn active" data-cat="all">ALL [48]</button>
+<button class="px-space-md py-2 bg-surface-container text-on-surface font-label-caps text-label-caps tracking-widest hover:bg-surface-container-high filter-btn" data-cat="apparel">APPAREL [22]</button>
+<button class="px-space-md py-2 bg-surface-container text-on-surface font-label-caps text-label-caps tracking-widest hover:bg-surface-container-high filter-btn" data-cat="living">LIVING [14]</button>
+<button class="px-space-md py-2 bg-surface-container text-on-surface font-label-caps text-label-caps tracking-widest hover:bg-surface-container-high filter-btn" data-cat="objects">OBJECTS [12]</button>
+</div>
+</div>
+<!-- Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Product 1 -->
+<div class="group flex flex-col bg-surface p-space-sm shadow-sm hover:shadow-md transition-shadow duration-300">
+<div class="relative aspect-[3/4] bg-surface-container-low overflow-hidden mb-space-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Editorial look of a model draped in Soren pleated relaxed oatmeal linen trench coat standing in high-key natural illumination against concrete architecture." id="img-prod-1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEWRZwEWoAttlF31mqktmyohvarw4if-FhkEEEA-Pov2IBtIlQXDOplqRAdjoZdipSDKY-3OTf9ANXNTi1PUEtDrgFQ8nrQ5UWfW5j1x-ZrMrur7fSYXdlRKpMx4KJmyVv5DVrmZcPahtMONVUUQZSfoaeoqWddHblphEqLuuI0xtE34iauFcLmuU2yIqMtcVNexxK5ZnJfjD18Crwb3LcCX3DQL544kyT6PVxYAw8qaZEGO6yM782"/>
+<span class="absolute top-3 left-3 px-2 py-1 bg-surface font-label-caps text-[10px] text-on-surface uppercase tracking-widest shadow-sm">
+            Best Seller
+          </span>
+<button aria-label="Add to Wishlist" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors" onclick="toggleWishlist(this)">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Hover quick actions -->
+<div class="absolute inset-x-3 bottom-3 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex-1 py-2.5 bg-surface text-on-surface font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container transition-colors shadow-sm" onclick="openQuickView('Soren Pleated Linen Trench', 420, 'Tailored from heavyweight Japanese raw-washed linen, featuring drop shoulders, inverted back pleat, and hand-finished horn buttons.', 'Best Seller')">
+              Quick View
+            </button>
+<button class="flex-1 py-2.5 bg-primary text-on-primary font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-sm" onclick="triggerAddToCart('Soren Pleated Linen Trench', 420)">
+              Quick Add
+            </button>
+</div>
+</div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant">OUTERWEAR</span>
+<div class="flex items-center gap-1 text-[11px] text-on-surface">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold">4.9</span>
+<span class="text-on-surface-variant">(128)</span>
+</div>
+</div>
+<h4 class="font-body-md text-body-md text-on-surface font-medium truncate mb-1">Soren Pleated Linen Trench</h4>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$420 USD</span>
+<!-- Color Swatches -->
+<div class="flex items-center gap-1.5">
+<button class="w-3.5 h-3.5 rounded-full bg-[#ded6c9] ring-1 ring-offset-1 ring-primary focus:outline-none" title="Oatmeal"></button>
+<button class="w-3.5 h-3.5 rounded-full bg-[#1e1e1e] focus:outline-none" title="Noir"></button>
+<button class="w-3.5 h-3.5 rounded-full bg-[#555a48] focus:outline-none" title="Olive"></button>
+</div>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group flex flex-col bg-surface p-space-sm shadow-sm hover:shadow-md transition-shadow duration-300">
+<div class="relative aspect-[3/4] bg-surface-container-low overflow-hidden mb-space-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Folded luxury ribbed knit sweater in cream and espresso fine merino wool on smooth architectural ash timber surface, soft diffused studio light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_-PVI1bdhrHv1O6HRnY-lQgKx4MHWJUdHMJ4muwknykBlm1Efv9oxcZmceVAW9F7VOXC8dPejJGI7re7UXpdYcmdnrO7eBNS5yznFKKItrU_oa6WY5aqoeInEiIOb6E9UH2oKoGaIcxiQOLQVmnLnu_SPBI-1vzhpSHq6rPm3Gr1su7RdJKwGCzWs6_1OzF-moizioK75LbU36Be4eIP5knVxdjXPnm2efMKOYLM7w2ObTf8al4Ga"/>
+<span class="absolute top-3 left-3 px-2 py-1 bg-surface font-label-caps text-[10px] text-secondary uppercase tracking-widest shadow-sm">
+            Restocked
+          </span>
+<button aria-label="Add to Wishlist" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors" onclick="toggleWishlist(this)">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<div class="absolute inset-x-3 bottom-3 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex-1 py-2.5 bg-surface text-on-surface font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container transition-colors shadow-sm" onclick="openQuickView('Kanso Ribbed Merino Knit', 240, 'Spun from superfine 19.5-micron Australian merino wool with a substantial dry-hand gauge. Designed to layer effortlessly through transitional seasons.', 'Restocked')">
+              Quick View
+            </button>
+<button class="flex-1 py-2.5 bg-primary text-on-primary font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-sm" onclick="triggerAddToCart('Kanso Ribbed Merino Knit', 240)">
+              Quick Add
+            </button>
+</div>
+</div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant">KNITWEAR</span>
+<div class="flex items-center gap-1 text-[11px] text-on-surface">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold">4.8</span>
+<span class="text-on-surface-variant">(94)</span>
+</div>
+</div>
+<h4 class="font-body-md text-body-md text-on-surface font-medium truncate mb-1">Kanso Ribbed Merino Knit</h4>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$240 USD</span>
+<div class="flex items-center gap-1.5">
+<button class="w-3.5 h-3.5 rounded-full bg-[#f4f1ea] ring-1 ring-offset-1 ring-primary focus:outline-none" title="Cream"></button>
+<button class="w-3.5 h-3.5 rounded-full bg-[#3d2f2b] focus:outline-none" title="Espresso"></button>
+</div>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group flex flex-col bg-surface p-space-sm shadow-sm hover:shadow-md transition-shadow duration-300">
+<div class="relative aspect-[3/4] bg-surface-container-low overflow-hidden mb-space-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Sculptural Italian porous travertine stone table lamp with ambient warm linen lampshade glowing gently in an architectural interior corner." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlSaCqfSzPL1rmLxqS8VT6oR_P-3P7uQbcomIRv5Wkhz3ALGA4NTqx5rDtSePZ2cqh6VmgC8eLwKd5xNfCnrv6w6Vqrf9PzSh3sfaf29QeW1NdnB8QJKeOnCx7jq8zswVfVV5BQhUj3NGLmJmbsiAMIFZzfsScw9FJR7vw4hJS2o7NVjiyb4IuEc0JLJaDel8qqD_v96A9QAqUBuW3p3WhsN7garZLwHjgq6RpQOHktXLi16k4W7dM"/>
+<button aria-label="Add to Wishlist" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors" onclick="toggleWishlist(this)">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<div class="absolute inset-x-3 bottom-3 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex-1 py-2.5 bg-surface text-on-surface font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container transition-colors shadow-sm" onclick="openQuickView('Arco Travertine Table Lamp', 310, 'Carved from monolithic Tivoli travertine blocks with raw open-pore finish and custom handmade linen diffuser. Emits a soft, contemplative aura.', 'Limited Batch')">
+              Quick View
+            </button>
+<button class="flex-1 py-2.5 bg-primary text-on-primary font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-sm" onclick="triggerAddToCart('Arco Travertine Table Lamp', 310)">
+              Quick Add
+            </button>
+</div>
+</div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant">LIGHTING &amp; OBJECTS</span>
+<div class="flex items-center gap-1 text-[11px] text-on-surface">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold">5.0</span>
+<span class="text-on-surface-variant">(42)</span>
+</div>
+</div>
+<h4 class="font-body-md text-body-md text-on-surface font-medium truncate mb-1">Arco Travertine Table Lamp</h4>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$310 USD</span>
+<span class="font-label-caps text-[10px] text-on-surface-variant">SOLID STONE</span>
+</div>
+</div>
+<!-- Product 4 -->
+<div class="group flex flex-col bg-surface p-space-sm shadow-sm hover:shadow-md transition-shadow duration-300">
+<div class="relative aspect-[3/4] bg-surface-container-low overflow-hidden mb-space-md">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Draped raw mulberry silk scarf with delicate hand-fringed hem resting on clean textured warm ecru plinth, studio editorial lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSfyiXA0nZKIhhJCu3Pnyls65wHfTiAMZSkDDiGtiBLaT8m-fMz-J3RmpJo-Md82TY7KDB8sKnLKdhezKGnbAC494epMN2FiEKw_p76ZVtTUenNLD17My_IqUiqbR5Os6K-UX_MIeub49uqv_1azQnXjmBgK3nILZI8ItIeTJtQWDhWqzIopWJxSAYlPl9M5I0qV0JnqzfmU-3aLDMVX_xhWmkJHOKsjnrXvdac93_QVNN-2lLMcKt"/>
+<button aria-label="Add to Wishlist" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface/80 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors" onclick="toggleWishlist(this)">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<div class="absolute inset-x-3 bottom-3 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex-1 py-2.5 bg-surface text-on-surface font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container transition-colors shadow-sm" onclick="openQuickView('Atelier Raw Silk Scarf', 145, 'Hand-loomed in small artisanal batches using untamed mulberry raw silk. Retains natural textural slubs and tactile thermal breathability.', 'Signature')">
+              Quick View
+            </button>
+<button class="flex-1 py-2.5 bg-primary text-on-primary font-label-caps text-[10px] tracking-widest uppercase hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-sm" onclick="triggerAddToCart('Atelier Raw Silk Scarf', 145)">
+              Quick Add
+            </button>
+</div>
+</div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant">ACCESSORIES</span>
+<div class="flex items-center gap-1 text-[11px] text-on-surface">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold">4.7</span>
+<span class="text-on-surface-variant">(63)</span>
+</div>
+</div>
+<h4 class="font-body-md text-body-md text-on-surface font-medium truncate mb-1">Atelier Raw Silk Scarf</h4>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-md text-label-md font-semibold text-on-surface">$145 USD</span>
+<span class="font-label-caps text-[10px] text-on-surface-variant">HAND-LOOMED</span>
+</div>
+</div>
+</div>
+</section>
+<!-- LIMITED-TIME OFFER: FEATURED FLASH DEAL COMPONENT -->
+<section class="w-full bg-tertiary text-on-tertiary my-space-xl overflow-hidden relative">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-20 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Visual Column -->
+<div class="lg:col-span-6 relative">
+<div class="aspect-[4/3] bg-tertiary-container overflow-hidden shadow-2xl relative">
+<img class="w-full h-full object-cover" data-alt="A dramatic low-key spotlight on a hand-cast heavy bronze vessel and minimalist sculptural incense burner with a thin whisper of fragrant smoke drifting upward, deep obsidian background, museum-quality lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIWvbwNk5zp-VDzdjb6kUnXV9pUsOqN8jJMHQ9ZAp746R4owguPjK47Ohb83rnvVVLSp-Xsyun1WXwbfVxt5xVHkJQ_nJanqe3f4J-13DMRuklegyWvgFhrWrlPA3olB-fZrlT2iMDm2HjMmx_Mga0kDi_XVaoSY91nF7nTCImEm45dY7n4G3_oG85-TfyLqerRetGcFSGlCu_rZElivRPWWOO01xW5W-5Em4mI9pT0RodaUGrPaYZ"/>
+<div class="absolute top-4 left-4 px-3 py-1 bg-secondary text-on-secondary font-label-caps text-label-caps tracking-widest">
+              SAVE 30% ARCHIVE PROMOTION
+            </div>
+</div>
+<!-- Stock Scarcity Status Bar -->
+<div class="mt-4 p-4 bg-tertiary-container flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-ping"></span>
+<span class="font-label-caps text-label-caps text-secondary-fixed">ARCHIVE ALLOCATION STATUS</span>
+</div>
+<span class="font-label-sm text-label-sm text-surface-variant">Only 14 of 50 Pieces Remaining</span>
+</div>
+<!-- Progress bar -->
+<div class="w-full bg-surface-tint/30 h-1 mt-1">
+<div class="bg-secondary h-1" style="width: 72%;"></div>
+</div>
+</div>
+<!-- Deal Content & Interactive Countdown -->
+<div class="lg:col-span-6 flex flex-col items-start">
+<div class="inline-flex items-center gap-2 text-secondary-fixed-dim font-label-caps text-label-caps tracking-widest mb-3">
+<span>VAULT RELEASE</span>
+<span>•</span>
+<span>COLLECTOR CURATION</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-tertiary mb-3 leading-tight">
+            The Hand-Cast Bronze Vessel &amp; Incense Burner
+          </h2>
+<p class="font-body-md text-body-md text-tertiary-fixed-dim mb-6 leading-relaxed">
+            Lost-wax cast in Kyoto from recycled architectural bronze. Each piece bears individual patina markings that mature with time and ceremonial burnings. Presented with thirty sandalwood incense cones.
+          </p>
+<!-- Pricing Block -->
+<div class="flex items-baseline gap-4 mb-8">
+<span class="font-display-hero text-4xl text-on-tertiary font-normal tracking-tight">$265</span>
+<span class="font-headline-sm text-headline-sm text-surface-tint line-through">$380</span>
+<span class="px-2 py-0.5 bg-secondary/30 text-secondary-fixed font-label-caps text-label-caps">YOU SAVE $115</span>
+</div>
+<!-- Countdown Timer Component -->
+<div class="w-full mb-8">
+<span class="font-label-caps text-[10px] text-tertiary-fixed-dim uppercase tracking-widest block mb-3">
+              CAMPAIGN WINDOW CONCLUDES IN:
+            </span>
+<div class="grid grid-cols-4 gap-2 sm:gap-4 max-w-md">
+<div class="bg-tertiary-container p-3 sm:p-4 text-center shadow-inner">
+<span class="font-headline-md text-2xl sm:text-3xl text-on-tertiary font-mono block" id="countdown-days">02</span>
+<span class="font-label-caps text-[9px] sm:text-[10px] text-on-tertiary-container tracking-wider">DAYS</span>
+</div>
+<div class="bg-tertiary-container p-3 sm:p-4 text-center shadow-inner">
+<span class="font-headline-md text-2xl sm:text-3xl text-on-tertiary font-mono block" id="countdown-hours">14</span>
+<span class="font-label-caps text-[9px] sm:text-[10px] text-on-tertiary-container tracking-wider">HOURS</span>
+</div>
+<div class="bg-tertiary-container p-3 sm:p-4 text-center shadow-inner">
+<span class="font-headline-md text-2xl sm:text-3xl text-on-tertiary font-mono block" id="countdown-mins">42</span>
+<span class="font-label-caps text-[9px] sm:text-[10px] text-on-tertiary-container tracking-wider">MINS</span>
+</div>
+<div class="bg-tertiary-container p-3 sm:p-4 text-center shadow-inner">
+<span class="font-headline-md text-2xl sm:text-3xl text-secondary-fixed font-mono block" id="countdown-secs">18</span>
+<span class="font-label-caps text-[9px] sm:text-[10px] text-on-tertiary-container tracking-wider">SECS</span>
+</div>
+</div>
+</div>
+<!-- Conversion CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full max-w-md">
+<button class="flex-1 px-8 py-4 bg-secondary text-on-secondary font-label-caps text-label-caps tracking-widest text-center hover:bg-secondary-container hover:text-on-secondary-container transition-all duration-200 uppercase shadow-md flex items-center justify-center gap-2" onclick="triggerAddToCart('Hand-Cast Bronze Vessel', 265)">
+<span class="material-symbols-outlined text-[18px]">lock</span>
+              Claim This Exclusive Deal
+            </button>
+</div>
+<div class="mt-4 flex items-center gap-3 text-tertiary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">verified</span>
+<span>Free Express Courier • Includes Certificate of Provenance</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- NEW ARRIVALS & CURATED COLLECTIONS DUAL BANNER -->
+<section class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl" id="curations">
+<div class="text-center max-w-xl mx-auto mb-space-xl">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-1">DUAL PERSPECTIVES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Curated Seasonal Stories</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Story Banner 1 -->
+<div class="relative aspect-[16/11] bg-surface-container overflow-hidden group shadow-sm flex flex-col justify-end p-space-xl">
+<img class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Editorial look of organic raw sienna and terracotta tones, model in loose sand-washed trousers against a weathered mud-brick wall in natural morning sun." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3GC2wu9fFJgaPo88YXo9Jdz8ZrV_lcDyGlAhZCm5qHxeqd6OpW6L8UITs3KfhbOr6-IumEH2zIJxtXr8A5lUMQKWX3dtA68H-Co-mB0mx96TUsRth1bMePSitZL_C6yqFQX50GsLGdNjEP4F_x7IFjxj8Uv-F4J3aXHZ68PzS_X43uU6o08pPFxy37boN0ki7iR1Qb8UStgLAGPQiLGAAQVdLhHQzjsdGen3RpbDv79QVMmLtChD2"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent"></div>
+<div class="relative z-10 text-on-primary max-w-md">
+<span class="font-label-caps text-label-caps tracking-widest text-surface-container-high block mb-1">EDITORIAL EDIT 01</span>
+<h3 class="font-headline-md text-headline-md tracking-tight mb-2">The Earth Tone Capsule</h3>
+<p class="font-body-sm text-body-sm text-surface-variant mb-space-md">
+            Umber pigments, coarse linen, and clay-tinted wool designed to blend with the ambient tones of organic space.
+          </p>
+<a class="inline-flex items-center gap-2 font-label-caps text-label-caps tracking-widest text-on-primary hover:text-secondary-fixed transition-colors underline underline-offset-4" href="#catalog">
+            EXPLORE CAPSULE (18 PIECES)
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Story Banner 2 -->
+<div class="relative aspect-[16/11] bg-surface-container overflow-hidden group shadow-sm flex flex-col justify-end p-space-xl">
+<img class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A peaceful sun-drenched minimalist living room featuring a sculptural low oak tea table, raw stoneware teapot, and natural linen curtains gently moving in breeze." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_5ULKUBw7VriQ65uMokV2_D0NUbpBO1i-yhGtgRwYr_fBvwj2zzQUrm5aFqT2h3jHmznhPjW1XSC84f8M-z2eD_NLPrPZTkymWbiuAIt33cxv8kGO6DOtSMvOeC8RhdSBg0vs0KTDKvih2H-xTpRmRAd7_zCbIKgzdqRR8t97h_azfII0oauj5Zsca-flx9vcXr6oAXtmR6FgiEEGlQmOdr2fTcecdAJPkM7yvhJfWM1eZAzSJm8i"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent"></div>
+<div class="relative z-10 text-on-primary max-w-md">
+<span class="font-label-caps text-label-caps tracking-widest text-surface-container-high block mb-1">EDITORIAL EDIT 02</span>
+<h3 class="font-headline-md text-headline-md tracking-tight mb-2">Quiet Rituals at Home</h3>
+<p class="font-body-sm text-body-sm text-surface-variant mb-space-md">
+            Hand-thrown teaware, aromatic hinoki sprays, and weighted throws engineered to anchor personal time.
+          </p>
+<a class="inline-flex items-center gap-2 font-label-caps text-label-caps tracking-widest text-on-primary hover:text-secondary-fixed transition-colors underline underline-offset-4" href="#catalog">
+            EXPLORE SANCTUARY (24 PIECES)
+            <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- CUSTOMER REVIEWS & CRITICAL ACCLAIM -->
+<section class="w-full bg-surface-container-low py-space-xl my-space-lg">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+<!-- Section Header with Trust Metrics -->
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-1">VERIFIED ACCLAIM</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Voices of the Discerning</h2>
+</div>
+<div class="flex items-center gap-space-md bg-surface px-space-md py-3 shadow-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="font-label-sm text-label-sm text-on-surface">
+<span class="font-semibold text-body-md">4.92 / 5.0</span>
+<span class="text-on-surface-variant ml-1">Across 1,840 Curated Collectors</span>
+</div>
+</div>
+</div>
+<!-- Testimonials Mosaic -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Review 1 -->
+<div class="bg-surface p-space-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="font-label-caps text-secondary text-[10px] tracking-widest mb-3">CRITICAL REVIEW</div>
+<p class="font-headline-sm text-lg text-on-surface leading-snug italic mb-6">
+              "A rare modern brand that respects weight and quietude. The Soren Trench has become the single most reliable piece in my seasonal travels."
+            </p>
+</div>
+<div class="pt-4 flex items-center justify-between text-on-surface-variant">
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">Elena Rostova</p>
+<p class="font-label-sm text-label-sm">Design Editor, Architectural Digest</p>
+</div>
+<span class="font-label-caps text-[10px] bg-surface-container px-2 py-1 text-on-surface">VERIFIED CRITIC</span>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface p-space-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="font-label-caps text-secondary text-[10px] tracking-widest mb-3">COLLECTOR NOTE</div>
+<p class="font-headline-sm text-lg text-on-surface leading-snug italic mb-6">
+              "The Arco Travertine lamp is a museum piece. The tactile porous texture and ambient illumination completely transform the quiet hours of my studio."
+            </p>
+</div>
+<div class="pt-4 flex items-center justify-between text-on-surface-variant">
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">Kenji Takahashi</p>
+<p class="font-label-sm text-label-sm">Interior Architect, Kyoto</p>
+</div>
+<span class="font-label-caps text-[10px] bg-surface-container px-2 py-1 text-on-surface">VERIFIED BUYER</span>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface p-space-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="font-label-caps text-secondary text-[10px] tracking-widest mb-3">PRESS CITATION</div>
+<p class="font-headline-sm text-lg text-on-surface leading-snug italic mb-6">
+              "AURA represents the definitive antidote to disposable luxury. Their garments age with graceful dignity instead of losing character."
+            </p>
+</div>
+<div class="pt-4 flex items-center justify-between text-on-surface-variant">
+<div>
+<p class="font-label-md text-label-md font-semibold text-on-surface">Monocle Magazine</p>
+<p class="font-label-sm text-label-sm">Style &amp; Craft Annual 2024</p>
+</div>
+<span class="font-label-caps text-[10px] bg-surface-container px-2 py-1 text-on-surface">ISSUE 168</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BRAND VALUES / ARCHITECTURAL TENETS -->
+<section class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<div class="p-space-lg bg-surface flex flex-col items-start shadow-sm">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[24px]">eco</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Carbon Neutral Craft</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          From Japanese looms to final door dispatch, 100% of atelier carbon expenditures are audited and rebalanced.
+        </p>
+</div>
+<div class="p-space-lg bg-surface flex flex-col items-start shadow-sm">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[24px]">local_shipping</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Complimentary Global Express</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Delivered door-to-door in 48-72 hours via carbon-neutral couriers with complimentary climate-sealed tracking.
+        </p>
+</div>
+<div class="p-space-lg bg-surface flex flex-col items-start shadow-sm">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[24px]">handyman</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Lifetime Repair Guarantee</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Every garment and functional vessel is serviced forever by our master seamstresses and restorative metalsmiths.
+        </p>
+</div>
+<div class="p-space-lg bg-surface flex flex-col items-start shadow-sm">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[24px]">inventory_2</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Bespoke Concierge Packaging</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Delivered in recyclable acid-free unbleached cotton cases and cedar chips for moth-free generational storage.
+        </p>
+</div>
+</div>
+</section>
+<!-- JOURNAL / EDITORIAL ESSAYS -->
+<section class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-1">ATELIER JOURNAL</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Deliberate Observations</h2>
+</div>
+<a class="font-label-caps text-label-caps tracking-widest text-on-surface hover:text-secondary transition-colors inline-flex items-center gap-1" href="#journal">
+        READ ALL ESSAYS
+        <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Article 1 -->
+<article class="group flex flex-col bg-surface shadow-sm overflow-hidden">
+<div class="aspect-[16/10] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Elderly ceramic artist hands shaping wet clay on a pottery wheel in a dimly lit Kyoto wooden studio, tranquil concentrated atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCucbEfr7iwxWhb7Z8vZpsG_x-MAZzXbUMssRU-xnmwK50XcPXmb3rJYZgRf9MDy_eFtKzFkhw2QNXoPOeLj3fzMpZTiDO1TKd-7h5M1utbA0_HWgaYWr55jRiPQRVdI5qnPCoaf4A3uDLG7hy-W75ZLHwRSfBNwMvT-39J1PPNJ9yUrDbTmnsckHESVIq9Ub7WnsPWSfLYdW7j_Fq-hthf-JEoJKX6ZR3P_-vTJ1CyNFfJ-yLcaI63"/>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-caps text-[10px] tracking-wider mb-2">
+<span>CRAFT &amp; HERITAGE</span>
+<span>•</span>
+<span>MAY 12, 2025</span>
+<span>•</span>
+<span>6 MIN READ</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors mb-3">
+              A Conversation with Kyoto Ceramicists
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Behind the wooden partitions of Gojozaka, three generational masters reflect on the deliberate imperfections of wood-fired kilns.
+            </p>
+</div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">Read Article →</span>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="group flex flex-col bg-surface shadow-sm overflow-hidden">
+<div class="aspect-[16/10] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Neatly arranged serene capsule wardrobe hanging on a black metal rail in a sun-drenched ecru plaster dressing room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoiITzmg2Z6swpwZwyMt_TQxhCdgSEazEV7kfl5u7t3dwiVUBJNr_DSK1U2i3KqGbVX5w6K2oRjFA4ZezqNcoQ5CT26eDy3oJmO3onKI3HdnsNmpVp-pVhBOzRH2M7X8GVWrkbnluzEIkGwL9LHCbjVB5XSJ3MrgXq_0jyNgYHKeJo-TGlbZ9rcgOuD3Njs4EdYEM1gLnw9wx5FzPAZqUmE0NphTQtR-q-ZtBa6ZGFH3_LuLXFaKzb"/>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-caps text-[10px] tracking-wider mb-2">
+<span>PHILOSOPHY</span>
+<span>•</span>
+<span>APR 28, 2025</span>
+<span>•</span>
+<span>4 MIN READ</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors mb-3">
+              The Art of Wardrobe Reduction
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Why curating down to eight transcendent garments expands everyday mental freedom and personal dignity.
+            </p>
+</div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">Read Article →</span>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="group flex flex-col bg-surface shadow-sm overflow-hidden">
+<div class="aspect-[16/10] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Macro detail of patinated bronze hardware alongside natural aged saddle leather with warm amber sunlight accentuating tactile grain." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjHa3EMrS_CSx5BifUzqhzGhhxKkSWApoqQsxs02xmfq3m5kcEtl27wiS9PGptM14sGixtQdAcz6wvbvEa2lRcnnleda63mmpc6cs7A2SWRF4wiXOBLy6AsvwEgUiPRtV3drHG1YbBBuXN2zJTQBB1BUqkuBsPOTdmoDPLmqo0RAViIG7OmquJNwXoEnmktdGrt1vESFAzgWyCYrhTOYsXYdLlJwAqhLQQFOqEPo65fqYnYXMs2ksg"/>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-caps text-[10px] tracking-wider mb-2">
+<span>MATERIALITY</span>
+<span>•</span>
+<span>APR 14, 2025</span>
+<span>•</span>
+<span>7 MIN READ</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors mb-3">
+              Materials that Age with Grace
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-4">
+              Investigating the natural chemical changes in vegetable tannins, raw silk sericin, and copper alloy lustres.
+            </p>
+</div>
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">Read Article →</span>
+</div>
+</article>
+</div>
+</section>
+<!-- QUICK VIEW MODAL (INTERACTIVE PREVIEW) -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-primary/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300" id="quick-view-modal">
+<div class="bg-surface max-w-2xl w-full p-space-xl shadow-2xl relative flex flex-col md:flex-row gap-space-lg transform scale-95 transition-transform duration-300" id="quick-view-card">
+<button aria-label="Close modal" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-variant transition-colors" onclick="closeQuickView()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+<!-- Modal Image Mock -->
+<div class="w-full md:w-1/2 aspect-[3/4] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High detail studio product close up of minimal architectural luxury fashion piece against neutral beige ecru background." id="modal-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhr1lm5z2fpeb7aGziMlm8ku7RGtykURylwfDEiT78Jyfc8r9wedCJ63_9AGom76Z_dqluF1CyXfImsTAHfqPNfUyFFQFZv7UeNgbCg5gJdHVNatbJ3IIoFe2e6mJhazk_n5Plzm9y6wOjlVNs8hPBi3uOuQ-7GvKvByC6yJHEBY590ErW1pekL_d6ljTilwlxoF8dvDvGoBQ_Uj2SI4IEnmm0m4DyIm5q53cSJ6rPXRstgd6N2yFy"/>
+</div>
+<!-- Modal Info -->
+<div class="w-full md:w-1/2 flex flex-col justify-between">
+<div>
+<span class="font-label-caps text-secondary text-[10px] tracking-widest block mb-1" id="modal-tag">EDITION 04</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2" id="modal-title">Product Title</h3>
+<p class="font-label-md text-label-md text-on-surface font-semibold mb-4" id="modal-price">$0 USD</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6 leading-relaxed" id="modal-desc">
+            Detailed item breakdown and curation notes.
+          </p>
+<!-- Size Selector Mock -->
+<div class="mb-6">
+<span class="font-label-caps text-[10px] text-on-surface block mb-2">SELECT SIZE</span>
+<div class="flex gap-2">
+<button class="w-9 h-9 border-0 bg-surface-container text-on-surface font-label-caps text-[11px] hover:bg-primary hover:text-on-primary transition-colors">I</button>
+<button class="w-9 h-9 border-0 bg-primary text-on-primary font-label-caps text-[11px]">II</button>
+<button class="w-9 h-9 border-0 bg-surface-container text-on-surface font-label-caps text-[11px] hover:bg-primary hover:text-on-primary transition-colors">III</button>
+<button class="w-9 h-9 border-0 bg-surface-container text-on-surface font-label-caps text-[11px] hover:bg-primary hover:text-on-primary transition-colors">IV</button>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<button class="w-full py-3.5 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-sm" id="modal-add-btn">
+            Add to Bag
+          </button>
+<p class="font-label-sm text-[11px] text-center text-on-surface-variant">Includes Complimentary Global Courier</p>
+</div>
+</div>
+</div>
+</div>
+<!-- TOAST FEEDBACK NOTIFICATION -->
+<div class="fixed bottom-6 right-6 z-50 bg-primary text-on-primary px-space-lg py-3 shadow-xl font-label-sm text-label-sm flex items-center gap-3 translate-y-16 opacity-0 transition-all duration-300" id="toast">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">check_circle</span>
+<span id="toast-message">Item added to your selection.</span>
+</div>
+</div>
+<script>
+  // Dynamic Live Countdown Engine
+  (function initCountdown() {
+    let secondsLeft = 2 * 86400 + 14 * 3600 + 42 * 60 + 18;
+    const daysEl = document.getElementById('countdown-days');
+    const hoursEl = document.getElementById('countdown-hours');
+    const minsEl = document.getElementById('countdown-mins');
+    const secsEl = document.getElementById('countdown-secs');
+
+    setInterval(() => {
+      if (secondsLeft <= 0) return;
+      secondsLeft--;
+
+      const d = Math.floor(secondsLeft / 86400);
+      const h = Math.floor((secondsLeft % 86400) / 3600);
+      const m = Math.floor((secondsLeft % 3600) / 60);
+      const s = Math.floor(secondsLeft % 60);
+
+      if (daysEl) daysEl.textContent = String(d).padStart(2, '0');
+      if (hoursEl) hoursEl.textContent = String(h).padStart(2, '0');
+      if (minsEl) minsEl.textContent = String(m).padStart(2, '0');
+      if (secsEl) secsEl.textContent = String(s).padStart(2, '0');
+    }, 1000);
+  })();
+
+  // Toast Notification System
+  function showToast(message) {
+    const toast = document.getElementById('toast');
+    const toastMsg = document.getElementById('toast-message');
+    if (!toast || !toastMsg) return;
+    toastMsg.textContent = message;
+    toast.classList.remove('translate-y-16', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+    setTimeout(() => {
+      toast.classList.add('translate-y-16', 'opacity-0');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 3200);
+  }
+
+  // Quick View Modal Handlers
+  function openQuickView(title, price, desc, badge) {
+    const modal = document.getElementById('quick-view-modal');
+    const card = document.getElementById('quick-view-card');
+    document.getElementById('modal-title').textContent = title;
+    document.getElementById('modal-price').textContent = `$${price} USD`;
+    document.getElementById('modal-desc').textContent = desc;
+    document.getElementById('modal-tag').textContent = badge || 'EXCLUSIVE';
+    
+    document.getElementById('modal-add-btn').onclick = function() {
+      triggerAddToCart(title, price);
+      closeQuickView();
+    };
+
+    modal.classList.remove('pointer-events-none', 'opacity-0');
+    modal.classList.add('opacity-100');
+    card.classList.remove('scale-95');
+    card.classList.add('scale-100');
+  }
+
+  function closeQuickView() {
+    const modal = document.getElementById('quick-view-modal');
+    const card = document.getElementById('quick-view-card');
+    card.classList.remove('scale-100');
+    card.classList.add('scale-95');
+    modal.classList.add('opacity-0', 'pointer-events-none');
+    modal.classList.remove('opacity-100');
+  }
+
+  // Quick Add To Cart Simulation
+  function triggerAddToCart(productTitle, price) {
+    showToast(`Added "${productTitle}" ($${price} USD) to Atelier Bag`);
+  }
+
+  // Wishlist Heart Toggle
+  function toggleWishlist(btn) {
+    const icon = btn.querySelector('.material-symbols-outlined');
+    const isFilled = icon.style.fontVariationSettings?.includes("'FILL' 1");
+    if (isFilled) {
+      icon.style.fontVariationSettings = "'FILL' 0";
+      icon.classList.remove('text-secondary');
+      showToast('Removed piece from Private Wishlist');
+    } else {
+      icon.style.fontVariationSettings = "'FILL' 1";
+      icon.classList.add('text-secondary');
+      showToast('Preserved in Private Wishlist');
+    }
+  }
+
+  // Filter Buttons Interactive Toggle
+  document.querySelectorAll('#filter-container .filter-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('#filter-container .filter-btn').forEach(b => {
+        b.classList.remove('bg-primary', 'text-on-primary');
+        b.classList.add('bg-surface-container', 'text-on-surface');
+      });
+      this.classList.remove('bg-surface-container', 'text-on-surface');
+      this.classList.add('bg-primary', 'text-on-primary');
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-xl"><div class="max-w-[1440px] mx-auto px-margin pt-space-xl pb-space-lg"><div class="bg-surface p-space-xl mb-space-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="max-w-xl"><span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-space-xs">PRIVATE ARCHIVES</span><h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">First access to curations &amp; seasonal drops</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Receive deliberate editorial notes, member-exclusive atelier invites, and advance lookbooks.</p></div><form class="w-full md:w-auto flex flex-col sm:flex-row gap-space-xs items-stretch"><input class="px-space-md py-3 bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none min-w-[280px]" placeholder="Enter your email address" type="email"/><button class="px-space-lg py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest hover:bg-surface-container-highest hover:text-on-surface transition-colors uppercase" type="submit">Subscribe</button></form></div><div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg py-space-lg"><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">SHOP</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="apparel" href="#">Apparel</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="living" href="#">Living &amp; Objects</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="footwear" href="#">Footwear</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="accessories" href="#">Leather Accessories</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="gift-cards" href="#">Digital Vouchers</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">CLIENT SERVICE</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge" href="#">Atelier Concierge</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="shipping" href="#">Complimentary Shipping</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="returns" href="#">Exchanges &amp; Returns</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="order-tracking" href="#">Order Tracking</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="garment-care" href="#">Garment Care Guide</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">COMPANY</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="atelier-story" href="#">The Atelier Story</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="sustainability" href="#">Sustainability Charter</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="press" href="#">Press &amp; Editorials</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="careers" href="#">Careers</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="archive" href="#">Seasonal Archives</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">REPOSITORIES</span><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-xs">Curated from Paris, Kyoto, and New York. Pieces produced in numbered batches.</p><div class="flex items-center gap-space-xs text-on-surface-variant pt-space-xs"><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">VISA</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">MASTERCARD</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">AMEX</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">APPLE PAY</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-sm text-label-sm"><div class="flex items-center gap-space-lg"><span class="font-body-sm text-body-sm">© 2025 AURA Living &amp; Apparel Inc. All rights reserved.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="terms" href="#">Terms of Service</a><div class="flex items-center gap-space-xs ml-space-sm"><span class="cursor-pointer text-on-surface">United States (USD $)</span><span class="text-outline-variant">•</span><span class="cursor-pointer hover:text-on-surface transition-colors">English (US)</span></div></div></div></div></footer></body></html>

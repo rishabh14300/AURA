@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container":"#efeeeb","tertiary":"#000000","secondary-fixed":"#ffdbce","surface-variant":"#e3e2e0","surface-tint":"#5f5e5e","on-tertiary":"#ffffff","surface-container-high":"#e9e8e5","surface-bright":"#faf9f6","tertiary-container":"#1b1c1a","secondary":"#9b4420","on-surface-variant":"#444748","primary-fixed-dim":"#c8c6c5","outline-variant":"#c4c7c7","secondary-fixed-dim":"#ffb59a","on-primary-container":"#858383","background":"#faf9f6","on-secondary-fixed":"#380d00","surface":"#faf9f6","on-primary-fixed":"#1c1b1b","inverse-primary":"#c8c6c5","surface-container-low":"#f4f3f1","on-secondary-fixed-variant":"#7c2e0a","tertiary-fixed":"#e3e2df","on-tertiary-container":"#848481","on-secondary":"#ffffff","outline":"#747878","surface-container-highest":"#e3e2e0","error-container":"#ffdad6","on-secondary-container":"#752905","tertiary-fixed-dim":"#c7c7c3","error":"#ba1a1a","primary":"#000000","on-error":"#ffffff","surface-container-lowest":"#ffffff","on-background":"#1a1c1a","on-primary-fixed-variant":"#474646","inverse-on-surface":"#f2f1ee","on-surface":"#1a1c1a","on-error-container":"#93000a","secondary-container":"#fe9166","primary-fixed":"#e5e2e1","on-tertiary-fixed-variant":"#464744","primary-container":"#1c1b1b","on-primary":"#ffffff","on-tertiary-fixed":"#1b1c1a","surface-dim":"#dbdad7","inverse-surface":"#2f312f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"0.75rem","space-md":"1rem","margin-mobile":"1.25rem","space-xl":"2.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-lg":"1.5rem","margin":"3rem","gutter":"1.5rem"},"fontFamily":{"headline-sm":["Playfair Display"],"label-caps":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-hero-mobile":["Playfair Display"],"display-hero":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"headline-lg":["Playfair Display"]},"fontSize":{"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"500"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-low px-margin"><div class="max-w-[1440px] mx-auto h-9 flex items-center justify-between font-label-caps text-label-caps tracking-widest text-on-surface-variant"><div class="flex items-center gap-space-sm"><span class="cursor-pointer hover:text-on-surface transition-colors">USD ($)</span><span class="text-outline-variant">/</span><span class="cursor-pointer hover:text-on-surface transition-colors">EN</span></div><div class="flex items-center gap-space-xs"><span class="text-secondary font-semibold">SPRING ATELIER LAUNCH</span><span class="text-outline-variant">—</span><span>Complimentary worldwide express shipping on orders over $250</span></div><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">CONCIERGE</a><button class="flex items-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[16px]">close</span></button></div></div></div><div class="h-20"><div class="max-w-[1440px] mx-auto h-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-lg"><img alt="AURA Wordmark Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XVW9E2jfXFXVxK3eFfnckyO8-D1oCuoe98HUhHmM7gGWPYhQEgLgIkIpT4OPDDOv76xDdF_jyq8VF-1Pq7-dVYSBdbwZ-3tcDs36YuGIjn9RjhZHnr_ThaCkQ8eygDvBHMvO-HIT74q6LEckJgBbOZO5_A2lNM7dcfDvEsI9dbS4DXS2oiOHrK97zL8XTDYeOyZU3HwTrYNsIo334zOJQNEhx2XxpAbvIVeV17jDAroI9vGmm4n-47Y8E"/><span class="font-headline-sm text-headline-sm tracking-wider text-on-surface hidden xl:inline">AURA</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-on-surface font-semibold underline underline-offset-8 decoration-1 decoration-secondary"><a aria-current="page" class="tracking-widest transition-colors flex items-center gap-space-xs text-on-surface font-semibold underline underline-offset-8 decoration-1 decoration-secondary" data-path="shop" href="#">SHOP <span class="text-[9px] text-secondary">▾</span></a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="categories" href="#">CATEGORIES</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="new-arrivals" href="#">NEW ARRIVALS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="best-sellers" href="#">BEST SELLERS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="offers" href="#">OFFERS</a><a class="font-label-caps text-label-caps tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="journal" href="#">JOURNAL</a></nav><div class="flex items-center gap-space-md"><button class="hidden md:flex items-center gap-space-sm px-space-sm py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-label-sm text-label-sm">Search atelier...</span><kbd class="font-label-caps text-[9px] bg-surface-container px-1.5 py-0.5 rounded text-on-surface-variant">⌘K</kbd></button><a class="relative p-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-surface-container-highest text-on-surface font-label-caps text-[9px] flex items-center justify-center font-semibold">3</span></a><a class="relative p-1 text-on-surface-variant hover:text-on-surface transition-colors" data-path="cart" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-primary text-on-primary font-label-caps text-[9px] flex items-center justify-center font-semibold">2</span></a><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-surface-variant cursor-pointer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5oOg54sGeZGQbn62-4Aue6C_dPScdUBOMue7OKioaeqlOMJW0bLlaOag6X3snYe34DFDv32YljkZnqZr9uyvnk7zh462rh1PK1_wDPakEd5huC-uKrQm85GfJobwXjGAFDv_zKW2rVjx07W2unAyNn7ol4wetIhMCZSibNNkiT7ULD0z8BS4VwFl8cfK_UEoI_wUQ_9AetiFATaaR_MtkzF8rHFNjQVAQf19PKPsdnR02Bl7LKs8o"/></div></div></div></div></header><main class="w-full pt-[116px] bg-surface"><div class="flex flex-col w-full">
+<!-- Subtle Architectural Ambience -->
+<div class="relative w-full bg-surface-container-low px-6 md:px-12 py-10 mb-8 overflow-hidden">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary-fixed/40 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1440px] mx-auto relative z-10 flex flex-col md:flex-row md:items-end justify-between gap-8">
+<div class="max-w-3xl">
+<!-- Breadcrumbs -->
+<nav class="flex items-center gap-2 font-label-caps text-label-caps text-on-surface-variant mb-4 tracking-widest uppercase">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<span class="text-surface-tint">/</span>
+<a class="hover:text-primary transition-colors" href="#">Shop</a>
+<span class="text-surface-tint">/</span>
+<a class="hover:text-primary transition-colors" href="#">Apparel</a>
+<span class="text-surface-tint">/</span>
+<span class="text-on-surface font-semibold">Ready-to-Wear</span>
+</nav>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mb-3">
+          Ready-to-Wear Collection
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl font-light">
+          Thoughtfully tailored silhouettes cut from breathable organic linen, double-faced wool, and deadstock Japanese silks. Showing 128 archived &amp; active items.
+        </p>
+</div>
+<!-- Quick Capsule Highlight Metric Bar -->
+<div class="flex items-center gap-6 bg-surface p-4 shadow-sm self-start md:self-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-secondary tracking-widest uppercase">Curated Drop</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Vol. 04 / 2025</span>
+</div>
+<div class="w-px h-8 bg-surface-variant"></div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-widest uppercase">Craftsmanship</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Eco-Certified</span>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-[1440px] mx-auto w-full px-6 md:px-12 flex flex-col gap-6">
+<!-- Filter & Sort Control Hub -->
+<div class="flex flex-col gap-4 bg-surface-container p-4 md:p-6">
+<div class="flex flex-wrap items-center justify-between gap-4">
+<!-- Left Filter Toggles -->
+<div class="flex flex-wrap items-center gap-2">
+<!-- Filter Drawer Trigger Button -->
+<button class="flex items-center gap-2 px-4 py-2.5 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-tint transition-all shadow-sm" id="toggle-filter-drawer">
+<span class="material-symbols-outlined text-[16px]">tune</span>
+<span>All Refinements</span>
+<span class="bg-surface/20 px-1.5 py-0.5 text-[10px]">3</span>
+</button>
+<!-- Quick Desktop Dropdowns -->
+<div class="relative group hidden lg:block">
+<button class="px-3.5 py-2.5 bg-surface text-on-surface font-label-sm text-label-sm flex items-center gap-2 hover:bg-surface-container-high transition-colors">
+<span>Category</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+<div class="absolute left-0 top-full mt-1 w-48 bg-surface shadow-xl p-3 hidden group-hover:flex flex-col gap-2 z-30">
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input checked="" class="accent-primary" type="checkbox"/> Blouses &amp; Tops (34)
+              </label>
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input checked="" class="accent-primary" type="checkbox"/> Tailored Trousers (28)
+              </label>
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input class="accent-primary" type="checkbox"/> Cocoon Coats (19)
+              </label>
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input class="accent-primary" type="checkbox"/> Midi Dresses (47)
+              </label>
+</div>
+</div>
+<!-- Size Selector Trigger -->
+<div class="relative group hidden lg:block">
+<button class="px-3.5 py-2.5 bg-surface text-on-surface font-label-sm text-label-sm flex items-center gap-2 hover:bg-surface-container-high transition-colors">
+<span>Size</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+<div class="absolute left-0 top-full mt-1 w-44 bg-surface shadow-xl p-3 hidden group-hover:flex flex-wrap gap-1.5 z-30">
+<button class="px-2.5 py-1 text-xs font-label-caps uppercase bg-primary text-on-primary">XS</button>
+<button class="px-2.5 py-1 text-xs font-label-caps uppercase bg-surface-container-high text-on-surface hover:bg-surface-tint hover:text-on-primary">S</button>
+<button class="px-2.5 py-1 text-xs font-label-caps uppercase bg-surface-container-high text-on-surface hover:bg-surface-tint hover:text-on-primary">M</button>
+<button class="px-2.5 py-1 text-xs font-label-caps uppercase bg-surface-container-high text-on-surface hover:bg-surface-tint hover:text-on-primary">L</button>
+<button class="px-2.5 py-1 text-xs font-label-caps uppercase bg-surface-container-high text-on-surface hover:bg-surface-tint hover:text-on-primary">XL</button>
+</div>
+</div>
+<!-- Material -->
+<div class="relative group hidden lg:block">
+<button class="px-3.5 py-2.5 bg-surface text-on-surface font-label-sm text-label-sm flex items-center gap-2 hover:bg-surface-container-high transition-colors">
+<span>Material</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+<div class="absolute left-0 top-full mt-1 w-44 bg-surface shadow-xl p-3 hidden group-hover:flex flex-col gap-2 z-30">
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input checked="" class="accent-primary" type="checkbox"/> Organic Linen
+              </label>
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input class="accent-primary" type="checkbox"/> Mulberry Silk
+              </label>
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input class="accent-primary" type="checkbox"/> Alpaca Wool
+              </label>
+<label class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface cursor-pointer">
+<input class="accent-primary" type="checkbox"/> Fine Cashmere
+              </label>
+</div>
+</div>
+<!-- Price Range Slider Modal Trigger -->
+<div class="relative group hidden xl:block">
+<button class="px-3.5 py-2.5 bg-surface text-on-surface font-label-sm text-label-sm flex items-center gap-2 hover:bg-surface-container-high transition-colors">
+<span>Price ($100 - $1,000)</span>
+<span class="material-symbols-outlined text-[14px]">expand_more</span>
+</button>
+<div class="absolute left-0 top-full mt-1 w-64 bg-surface shadow-xl p-4 hidden group-hover:flex flex-col gap-3 z-30">
+<div class="flex items-center justify-between font-label-caps text-label-caps text-on-surface-variant">
+<span>$100</span>
+<span class="font-semibold text-secondary">$200 - $500</span>
+<span>$1,000</span>
+</div>
+<input class="w-full accent-primary h-1 bg-surface-container-highest cursor-pointer" max="1000" min="100" type="range" value="480"/>
+</div>
+</div>
+<button class="px-3.5 py-2.5 bg-surface text-on-surface font-label-sm text-label-sm hidden sm:flex items-center gap-1.5 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[14px] text-secondary">star</span>
+<span>4★ &amp; Above</span>
+</button>
+<button class="px-3.5 py-2.5 bg-surface text-on-surface font-label-sm text-label-sm hidden sm:flex items-center gap-2 hover:bg-surface-container-high transition-colors">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>In Stock Only</span>
+</button>
+</div>
+<!-- Right Sorting & Layout Density Toggle -->
+<div class="flex items-center gap-4 ml-auto">
+<div class="flex items-center gap-2 bg-surface px-3 py-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase">Sort:</span>
+<select class="bg-transparent font-label-sm text-label-sm text-on-surface font-medium focus:outline-none cursor-pointer">
+<option selected="">Featured</option>
+<option>Newest Arrivals</option>
+<option>Price: Low to High</option>
+<option>Price: High to Low</option>
+<option>Best Selling</option>
+</select>
+</div>
+<!-- Layout Switcher (3-Col vs 4-Col Grid) -->
+<div class="flex items-center bg-surface p-1 gap-1">
+<button class="p-1.5 bg-surface-container text-on-surface hover:text-primary transition-colors" id="view-3-col" title="3-Column Grid">
+<span class="material-symbols-outlined text-[18px]">view_column_2</span>
+</button>
+<button class="p-1.5 text-on-surface-variant hover:text-on-surface transition-colors" id="view-4-col" title="4-Column Grid">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Active Filter Chips Bar -->
+<div class="flex flex-wrap items-center gap-2 pt-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Active:</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface text-on-surface font-label-sm text-label-sm group shadow-xs">
+<span>Linen</span>
+<button aria-label="Remove Linen filter" class="text-on-surface-variant group-hover:text-primary leading-none">×</button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface text-on-surface font-label-sm text-label-sm group shadow-xs">
+<span>$200 – $500</span>
+<button aria-label="Remove Price filter" class="text-on-surface-variant group-hover:text-primary leading-none">×</button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-surface text-on-surface font-label-sm text-label-sm group shadow-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-[#d7c9b8] inline-block"></span>
+<span>Beige / Oat</span>
+<button aria-label="Remove Color filter" class="text-on-surface-variant group-hover:text-primary leading-none">×</button>
+</span>
+<button class="font-label-caps text-label-caps text-secondary underline underline-offset-4 tracking-widest uppercase hover:text-primary transition-colors ml-2">
+          Clear All
+        </button>
+</div>
+</div>
+<!-- Product Grid Container (Default: 4-Columns on large screens) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 transition-all duration-300" id="product-grid">
+<!-- Product Card 1 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<!-- Media Container -->
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<!-- Primary Image -->
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="High fashion studio editorial portrait of a woman wearing an oversized architectural beige organic linen blazer with draped lapels, soft directional warm daylight, muted ecru background, minimalist luxury mood" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3LTpZ9Zp22zO-efhn5OoX3PsqPqr8rqdEN3vp8m63AgREWc3D_afI_mmt0431m7pcNRRg4Tno5K1HnhzaJ7WxsiiFIBtFsk1IbP-5fMSn1XnzSQV-Z9LO70h3exe1FM11j7y9zaqgjkOhslIvfARlwOtnBCn9f91sljR0ezOp_uXV6tlU-xBR83UQa7BuAg96TSSMPJ5Wg-xb6POY1YNf60lThiF2q1DzIANo04gzikyKjHRCUx7a"/>
+<!-- Hover Alternate Angle -->
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Close up architectural detail of beige textured linen blazer sleeve and raw shell button fastening, organic textile weave on soft neutral cream background, editorial still life" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHm4O38lZSjbUTjkn0zPOLli8TNZX0hg5okDCum_dFPn0-4J5GDISYdtse3fGNFVwW7wMWgeUblvS1U0nzb7DbC7Re_inXX1tpD_6uhAI3UzXHZagfgtlCbxVlpQM34bm3soIG_y0Pyk9sHmixkXUD4TM8qbRKcrEsKXOjBooS7D1pCYumIPbTUv3Ax6bmLukn0Hb68Ry23qDMRMdyG3fF9xp4kOOkHB5r5nvuQhoaWDCdb5XpWLv1"/>
+<!-- Badges (Top-Left) -->
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider shadow-xs">New</span>
+<span class="px-2 py-0.5 bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-wider">Sustainable Fiber</span>
+</div>
+<!-- Wishlist Heart Button -->
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick View Trigger Overlay Button -->
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<!-- Quick Add Slide-Up Container -->
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+</div>
+<!-- Product Information Block -->
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Tailoring • Linen</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#d7c9b8] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#2a2a28] hover:ring-1 hover:ring-primary"></span>
+<span class="w-3 h-3 rounded-full bg-[#f4f0eb] hover:ring-1 hover:ring-primary"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Atelier Unstructured Linen Blazer
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">$385.00</span>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="Full body shot of a model walking wearing flowing charcoal Japanese pleated wide-leg silk trousers, sunlight casting dramatic graphic shadows in a concrete gallery setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADZJJzXG9M8yhxrwgrlFJzFn_mCxuNmrWPn9ZjFl9NtS-grtxevniuOASnqKq0o9IFuM_NbrozYji4qgG1U9BK-6xTrnihVgn_K-nvoomq36WJFJ2FRz3frsinbVsZKloCSJ7Uw_s21PG7MbecBAL59Q5N4vMW2VOY3hofRWGqb_FE786d-Eko5-HERbYERUs_uvPronWvBZPRcMTm8CtmHQ71IKv0IvFt7ZL1R0S0a5xqbgX3SLU7"/>
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Detailed view of charcoal black silk culotte waistband tailored pleating and subtle mother-of-pearl button on textured stone background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1cTWZrfyfqbqDJJnVgmjXvIa7hjih5FN0pr5H45qleFMFATJ_-iUiJe7os4axt1TRCSVA_1foEfTkTP_c--9msKnr9uzXB1s7vOO7laf0BgSNeSspUIXGX8DQDrdSCdbSHS4laWCRp61eUlTne6ZIL708cjtRfDWvJ513xGwo9JA1OE1KRGYrojgiGq2kfGtXm1WdCRzsLQFQZ3OU_WQGil9Zji5IrPuxurT_-hDVD-v5hK5KFG3a"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-wider">Low Stock</span>
+</div>
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container-high text-on-surface-variant cursor-not-allowed opacity-50" title="Out of stock">L</button>
+</div>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Trousers • Silk</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#1b1c1a] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#706c64]"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Kyoto Pleated Palazzo Pant
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-secondary font-semibold">$310.00</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant line-through">$390.00</span>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="Sophisticated female model wearing an oatmeal-toned double-faced cashmere cocoon wrap cardigan, minimal warm interior with Scandinavian wood accents and soft sunbeams" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbsM5loE0owz_ucdtRJezeS9bXAO5TV8ZPOHEy6GOygGgnon-RZcsx58QGtojdn8le4ShKjCiiVroWa4NnLWW9JBbsTYalPMUWpPFu4hlDQWhtt1f4hVC_eN5aT1kt5Xn2ubPiCL_VzXH4sjToHBbweNRAKX3SeJ4jVdo4E-Auv2B5l5puQEhhzKsdhb1uPa61vmdTOPvKMsFiqLBnS0GAiZE1Rzcwk6q2q5zA7_dOQ3gvcSVymp0e"/>
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Macro textile photo showcasing raw brushed cashmere knit fiber and ribbed edge finish in natural un-dyed cream oat shade" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdkBfQVHaTPNM2mtvc7fTrK58drZY5iXZbUEnQqS21KieYOrsF_Yn8RZYukt15UKJLZRcAj5ofsqI2KOd4-R8jdOS3j0VVEoeokdLoUAuSWVcniKVklSAFpNXOpkx2kgvMC-dAeJ7MBwsAn6b0GsPZCochfOa606KOMXPvtQrUA9doMySovqVKDjTkgLaNJArSKjXey7foyuwUEazv3v-ydvGx1MQnFBdEBQvxbGDVc6zJfWsTvVL6"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider shadow-xs">Signature</span>
+</div>
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Knitwear • Cashmere</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#ede8e1] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#bfb6aa]"></span>
+<span class="w-3 h-3 rounded-full bg-[#353432]"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Ribbed Cocoon Cashmere Cardigan
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">$490.00</span>
+</div>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="Model posing in a terracotta rust organic bias-cut silk midi slip dress, high fashion editorial lighting with delicate drapery and warm earthy tonality" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX1Eo-WkEbp976G8b9cncMkjsQ6cAHgWKdCKViBlb7HRwm0sRv5sA_Duiqb-sKIE5kHBJiofblIPTRSFWfEWA7IhgU-YXzwiuFfmpxwwnVYBtucobx8BMqbWPd5Pyg9x5llWRksdGquH4i8uFMNWdqJhepKKX3Fmh196bNLh9eIe15djZsNE2M7L09p1141JYUUl6I7IR8InzPJZF5db9qX-nMWWStuq6EEXs5_2kbViqnwYA4D5fA"/>
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Sensory close up of terracotta copper silk fabric fold with hand rolled hem and subtle luminous sheen in natural warm light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8hrt5II_dHSW_zd7XJd98v2WSrIekd2UoCbBGcJJogjr17dQLEVom0lYhxilbmacl2o2hDzRSX0I6_gUmoGNsvaeho7xWjw1rqILfm36MjJI3y6YTyiJQvWGcjx2opyDKWJXocsECTQrjhC_IAu53valKq02q55PcIj0aj4Yhhu6Y7FtvX-cWCtdwLhqS1fPrnFdFDwi0ytGouosRIBK8rKxc-dE-KxKGdvSAbfQviBPuWaswLIu3"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps uppercase tracking-wider font-semibold">Rare Edition</span>
+</div>
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Dresses • Silk Crepe</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#9b4420] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#0d0d0c]"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Aura Bias-Cut Column Dress
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">$420.00</span>
+</div>
+</div>
+</div>
+<!-- Product Card 5 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="Chic tailoring editorial of a female model dressed in sand-colored pleated trousers paired with an ivory sleeveless silk shell top in an artful modern loft" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBq_-lvSXSm4wRoUegk6XvbOIiNPQb_-HTPhgtWhuc3Nl7JFAK9X4rpVHcDaYUkjXl4Tyyf1AKtUprqI-TFxRodtu5S_WHPuXZhBD4SYwpgWOPdQCKW2DU3BNu9WwDeGXyRH3xxXMZZ1WSDAU2G7hB532881LY1Vcb-cF4PzwTkRff_mkMapxTjFm4ciURqiXh3_IdSdF5pmx7mp27XXSIsTnPbM1uOG93hyG35dh-eYcdAVeOnCfkC"/>
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Macro detail of ivory silk shell neck seam and delicate contrast stitching on organic fabric under soft studio light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHKADO_SVcn4mQsTwIbz4RVXu-ZdwdoVHiWBl4Mx4Y6olALYeaBc0tg_Xf3RJWo8aSRtrVmTbRD0_VanBcw4_7fqfLWTAH-ajZFNhdcu1jMT3-Zy5ulQVONqtXkL0kEKp2xXeCluZlD7DL9xvBKHpl9uavBw28eyLETkHV-lbaHhKnE8nb_a96olzaujR0pVeZ14JLOy06NtgnFOd5lbPVNbodFT8nF1ReNJbwhHPqwkLqo_au2QoA"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider shadow-xs">Restocked</span>
+</div>
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Tops • Raw Silk</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#fdfcf7] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#9c9489]"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Minimalist Sleeveless Silk Shell
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">$225.00</span>
+</div>
+</div>
+</div>
+<!-- Product Card 6 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="Model in an olive sage structured double-faced wool trench coat standing against an architectural textured stone wall in Paris, moody soft ambient daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmCV4X3YZNU_AhqZgzjKcvvHWfTzmOMUOsRMNPK_-MnmKSmyUD0OESPLnuW_ilG15DeO_G-8dOKzR4AFZaNev3keMwV4nSDzZnJFPQculfq7GrdhHA-hN5jzvf-wuDWFc8KDOa9TeRPfwMH93vgi5FXiRWZB8yCdbik8tpDCGDCrJOOI8iyczlLmcVimD0vPzMx-tYgWAdXWsy4U8zb_ArbXFxhlPaSn0aT_MmhXUsl7aLS_8ISoDC"/>
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Close up view of olive green double faced wool trench storm flap and horn buttons with textured wool grain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrdJRcVHzDQYegiI6AXB1Fy-fhTcTlqDyC9n_51W0EH4gwxDaZsp1uSpJkiWmZFTgg43eKAlQMErBRljBiklMvr9QqrkOvDBmXYH2gu8lWyL6GS_yErFl7_KatUCP3fYmLEbJ6RfJe3MMZBn4G6I1o0hT_q4m83SnNJQfJehUzwCx0_fhydu09Sk7e-6PQqFVW_yX8y41NQb9yjsY2RbV0leDO66nQOFpN7T02vxI4uJTuXTb3RzqE"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-wider">Sustainable Fiber</span>
+</div>
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Outerwear • Wool</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#5d6355] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#20211f]"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Double-Faced Wool Belted Trench
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-secondary font-semibold">$640.00</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant line-through">$780.00</span>
+</div>
+</div>
+</div>
+<!-- Product Card 7 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="High editorial shot of female model in structured bone white organic linen button-down tunic shirt tucked casually into raw ecru trousers, warm afternoon sun" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBFYEou4RhEUOeUN4qbEWOdhbg_ZxR3oiiJd4tRhfAw4bCdU2V4uA20yFjnKsXi2co6R7kaMQAyPMEuoyu6ut0xDOakFfEQaKX4Z-FNjZ6uuuSzqCcWIvg2nJSa4wKYPGOH56x_Ox_IDFLiUDpAZ5M5AgjcwBLzRtf39LlPc2aE9zxNLU1m5IEU5ttIq0I5HXH-DyWOiUcy6y38mQ5jsiL4JqD15z4_gZH_AyIcjGxBIwMxldt7-0s"/>
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Macro detail of organic bone white linen fabric weave with mother of pearl shirt buttons and minimal collar line" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0PHkGc7oz5NvLcnL6CWPv09i_tE9V89PZv7MJUPnEKXPUYqQx4Xhsp1OupgwHSV62jHMlMIG-Ld5-lmfB5osYVDDEBAlVjQfgoaynG2FhSJytd_JfiwFIBF4MysjfTfl0M8VW44KQRXDRgQjqADPw_CcNl1VfYMpCcLVShdQZNR3pK13uK9p02ryOn8nRFjiYPLWyQdbSr1QKGECVil6gii8ACxPn9iy0MaxxwcJTfQVr-XJDyihJ"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider shadow-xs">New</span>
+</div>
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Shirts • Linen</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#f6f5f1] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#c0b9af]"></span>
+<span class="w-3 h-3 rounded-full bg-[#9b4420]"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Deconstructed Popover Linen Shirt
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">$245.00</span>
+</div>
+</div>
+</div>
+<!-- Product Card 8 -->
+<div class="group relative flex flex-col bg-surface shadow-sm hover:shadow-md transition-shadow">
+<div class="relative w-full aspect-[3/4] bg-surface-container-low overflow-hidden cursor-pointer">
+<img class="w-full h-full object-cover transition-opacity duration-700 ease-out group-hover:opacity-0" data-alt="Model posing in a structured Japanese raw indigo wool blend jacket with clean geometric lines and clean shoulder seams, minimalist loft background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPcIltcCA-0mTOfKXOfS-52LtrZWFvourIRmiib_WGcFVMess2Tx8lY6e5QwB9crfO5htSuDkWR0p9KnmCp_Be_tk2GOw5cnpWbyc_r7PSFSL9Wos07PGugAcyf8UzgVF1j6l4WL5XIsJdK7fDExcPo4wES9vA1DnOJOOsakh4YvhW3IGFI4ft_z4RzwWqFExikR-cWiqN_tE5A2zYoV0bIkGHKdMLjhOI0gfziSOsTCeZ3ziUVXZA"/>
+<img class="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out scale-105 group-hover:scale-100" data-alt="Close up shot of dark indigo textured weave fabric and hidden interior horn button finish" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_jPUyrkDnW47krX6q-CTyRJtJdWOpVCXQehn-DlZ1ZRKq86mUcRwGZtZniihECxiyeelRgo0Vfjc3F8-b3Pb-Gv-NC_hNA7ZEvBj0M0kw6iXwarfcMPW92OFARpHiFJCZll4o3FN9rTaR96XoAGzyMUR4aJTsr-2kMucTAfeVwVq6oK1ujgVxXrZk0R7EAkfF0V03w2UV6Ms2ZS-mDVhDHgbsUwVCRxe5eA2Xwg-Ohsw4TWx6rars"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+<span class="px-2 py-0.5 bg-secondary text-on-secondary font-label-caps text-label-caps uppercase tracking-wider">Low Stock</span>
+</div>
+<button aria-label="Add to Wishlist" class="wishlist-btn absolute top-3 right-3 w-9 h-9 bg-surface/90 backdrop-blur-sm flex items-center justify-center text-on-surface hover:text-secondary transition-colors z-10 shadow-xs">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<button class="quick-view-btn absolute bottom-14 left-1/2 -translate-x-1/2 px-4 py-2 bg-surface/95 backdrop-blur text-on-surface font-label-caps text-label-caps uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-300 hover:bg-primary hover:text-on-primary shadow-sm z-10">
+            Quick View
+          </button>
+<div class="quick-add-panel absolute inset-x-0 bottom-0 p-3 bg-surface/95 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-20 flex flex-col gap-1.5">
+<span class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-wider text-center">Select Size to Add</span>
+<div class="grid grid-cols-4 gap-1">
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">S</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-1 text-center font-label-caps text-[11px] bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+</div>
+<div class="p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">Tailoring • Wool Silk</span>
+<div class="flex items-center gap-1">
+<span class="w-3 h-3 rounded-full bg-[#1b2230] ring-2 ring-primary ring-offset-1"></span>
+<span class="w-3 h-3 rounded-full bg-[#1c1b1a]"></span>
+</div>
+</div>
+<h3 class="font-body-md text-body-md text-on-surface font-normal line-clamp-1 group-hover:text-secondary transition-colors">
+            Structured Collarless Wool Kimono Jacket
+          </h3>
+<div class="flex items-center gap-2 pt-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">$465.00</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty State / Filter Zero-Results Banner Preview (Collapsible Component) -->
+<div class="bg-surface-container-low p-8 flex flex-col items-center justify-center text-center gap-4 mt-6">
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">filter_list_off</span>
+</div>
+<div class="max-w-md">
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Looking for a specific atelier archive?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">If no items match your active filters, you can reset parameters or consult our private archive concierge for customized commission.</p>
+</div>
+<div class="flex items-center gap-3">
+<button class="px-5 py-2.5 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-tint transition-colors">
+          Reset All Filters
+        </button>
+<button class="px-5 py-2.5 bg-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container transition-colors">
+          Speak With Concierge
+        </button>
+</div>
+</div>
+<!-- Pagination & Progress Indicator -->
+<div class="flex flex-col items-center gap-6 py-12">
+<!-- Progress Bar (Showing 8 of 128) -->
+<div class="flex flex-col items-center gap-2 w-full max-w-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider uppercase">
+          Showing 1–8 of 128 products
+        </span>
+<div class="w-full h-1 bg-surface-container overflow-hidden">
+<div class="bg-secondary h-full transition-all duration-500" style="width: 6.25%;"></div>
+</div>
+</div>
+<!-- Pagination Buttons -->
+<nav aria-label="Catalog Pagination" class="flex items-center gap-2">
+<button class="w-10 h-10 flex items-center justify-center bg-surface-container text-on-surface-variant cursor-not-allowed opacity-50" disabled="">
+<span class="material-symbols-outlined text-[18px]">west</span>
+</button>
+<button class="w-10 h-10 flex items-center justify-center bg-primary text-on-primary font-label-sm text-label-sm font-semibold shadow-xs">
+          1
+        </button>
+<button class="w-10 h-10 flex items-center justify-center bg-surface hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors">
+          2
+        </button>
+<button class="w-10 h-10 flex items-center justify-center bg-surface hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors">
+          3
+        </button>
+<span class="w-10 h-10 flex items-center justify-center text-on-surface-variant font-label-sm text-label-sm">...</span>
+<button class="w-10 h-10 flex items-center justify-center bg-surface hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors">
+          16
+        </button>
+<button aria-label="Next Page" class="w-10 h-10 flex items-center justify-center bg-surface hover:bg-surface-container text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[18px]">east</span>
+</button>
+</nav>
+</div>
+</div>
+<!-- Interactive Slide-Out Quick View Modal -->
+<div class="fixed inset-0 z-50 pointer-events-none opacity-0 transition-opacity duration-300 flex items-center justify-center p-4" id="quick-view-modal">
+<div class="absolute inset-0 bg-primary/40 backdrop-blur-xs" id="quick-view-scrim"></div>
+<div class="relative w-full max-w-4xl bg-surface shadow-2xl p-6 md:p-8 z-10 transform scale-95 transition-transform duration-300 flex flex-col md:flex-row gap-8 max-h-[921px] overflow-y-auto">
+<button class="absolute top-4 right-4 p-2 text-on-surface-variant hover:text-on-surface transition-colors z-20" id="close-quick-view">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+<!-- Thumbnail Preview & Main View -->
+<div class="flex gap-4 w-full md:w-1/2">
+<div class="flex flex-col gap-2 w-16">
+<div class="aspect-[3/4] bg-surface-container-high overflow-hidden cursor-pointer ring-1 ring-primary">
+<img class="w-full h-full object-cover" data-alt="Miniature thumbnail 1 of ivory linen blazer front perspective in studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXiy5Cbvfpso0td8TLDWQYpIbVBS3KbJAECTVkk1OHGoMoWu11-i38UKQtLtHe31AWJ02Vw645QY6_U4-NfHNk4js8AH8hiEd1K9gdJRSOWaHNcuSyIO_NvyeBma4mL7E2l9YKjv1N6WWeoUS0TowEWuQECL4UeWacE6RQ7g05bWX8DN1ee0v-TlphsEICqHLmELFp40ZWr2S55NEIFn71-unyyUIe1SViuSEAqdbydwetQBeQP9fo"/>
+</div>
+<div class="aspect-[3/4] bg-surface-container-high overflow-hidden cursor-pointer opacity-70 hover:opacity-100">
+<img class="w-full h-full object-cover" data-alt="Miniature thumbnail 2 of linen blazer fabric texture and lapel close view" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBhh4SXhMRwLLbAjqbQFTftLHBOnVHHwKAzWkjeGpNT0j-o__l5lywIK4QwWqrCkoIlYvePfrJ_b00wFnltGPzHnp_lxFIFCl5baRYsH0O9ck1TAYmAI89PHhJJ0-5mDy5fQY5DKUKAFv0KO0SffkCavdWmEF1_D6uG22eomRCmyLHKGM_FKak8WpzYETiLTc2YkfsN6GbAQaW03xDplOVA80zUFUwH-C_6O9_S5ztyj1JewK9VbSS"/>
+</div>
+<div class="aspect-[3/4] bg-surface-container-high overflow-hidden cursor-pointer opacity-70 hover:opacity-100">
+<img class="w-full h-full object-cover" data-alt="Miniature thumbnail 3 of linen blazer rear silhouette drape on mannequin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxm6Lt-rsaYskI1JB4y1zNJ02V3QIyTLUWRL_hzLnI1Eb75DBMtOo3rmG5UGzqYcu9HspjZjq54RpLZRBSEGHPI6_psGCyjUvffmxIEJTMiv-FC83BF8vLay8JiI90XOSbOHehqkoN38G8BGGhLAZoyGNCBONPTgbmto29F9V2IyaLPNLbBFiz6Yy1T_a71RZVAyhVP9g9Zf2ubP-Mnk9Nrqn0DrUjeMpZJokn85X4F2cwo7JYyqma"/>
+</div>
+</div>
+<div class="flex-1 aspect-[3/4] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High resolution studio presentation of atelier unstructured linen blazer in neutral bone beige" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl6Plf1HWTMwxBLJIKWj_1Q8pSAi2ieHYm4zrUf7HhOK2kIHv73KZj9yWubmjTi_O0U-5_I3gqdJ31FtoeLAyRKutkWOM6xxXfFOdZ_ZUD4d31nLYWqWRXuTqnpTu7lSZfE_1uQ48RmbcACNhV0hEFTdL96YRoVJOkfYafKRi2RioaXH9zmQjL6LWxy-rpmEc0X2N7zEPhJgXnfccyKVo9qiwJm-gAjMj_sjsOVDKMTIwyyry1MzKk"/>
+</div>
+</div>
+<!-- Modal Info Details -->
+<div class="flex flex-col justify-between w-full md:w-1/2 gap-6">
+<div class="flex flex-col gap-3">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Aura Signature Drop</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Atelier Unstructured Linen Blazer</h2>
+<div class="flex items-center gap-3">
+<span class="font-headline-sm text-headline-sm text-on-surface">$385.00</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase bg-surface-container px-2 py-0.5">In Stock • NYC Atelier</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            Constructed from single-origin French flax linen without internal padding. Features hand-stitched pick lapels and unstructured soft shoulders for an effortless, architectural drape.
+          </p>
+</div>
+<div class="flex flex-col gap-4">
+<!-- Size Selector -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between font-label-caps text-label-caps">
+<span class="text-on-surface-variant uppercase">Select Size:</span>
+<a class="text-secondary underline underline-offset-4 uppercase" href="#">Size Chart</a>
+</div>
+<div class="grid grid-cols-4 gap-2">
+<button class="py-2.5 text-center font-label-caps text-label-caps bg-surface-container-highest text-on-surface hover:bg-primary hover:text-on-primary transition-colors">XS</button>
+<button class="py-2.5 text-center font-label-caps text-label-caps bg-primary text-on-primary">S</button>
+<button class="py-2.5 text-center font-label-caps text-label-caps bg-surface-container-highest text-on-surface hover:bg-primary hover:text-on-primary transition-colors">M</button>
+<button class="py-2.5 text-center font-label-caps text-label-caps bg-surface-container-highest text-on-surface hover:bg-primary hover:text-on-primary transition-colors">L</button>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<button class="flex-1 py-3.5 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-widest hover:bg-surface-tint transition-colors">
+              Add to Shopping Bag
+            </button>
+<button aria-label="Favorite this product" class="w-12 h-12 flex items-center justify-center bg-surface-container hover:text-secondary transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Slide-Out Filter Drawer (Mobile & Quick Refinements) -->
+<div class="fixed inset-0 z-50 pointer-events-none opacity-0 transition-opacity duration-300" id="filter-drawer-container">
+<div class="absolute inset-0 bg-primary/30 backdrop-blur-xs" id="filter-drawer-scrim"></div>
+<div class="absolute top-0 right-0 w-full max-w-md h-full bg-surface shadow-2xl p-6 transform translate-x-full transition-transform duration-300 flex flex-col justify-between overflow-y-auto" id="filter-drawer-panel">
+<div class="flex flex-col gap-6">
+<div class="flex items-center justify-between pb-4 border-b border-surface-variant">
+<span class="font-headline-sm text-headline-sm text-on-surface">Refinements</span>
+<button class="p-1 text-on-surface-variant hover:text-on-surface" id="close-filter-drawer">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<!-- Refinement Category List -->
+<div class="flex flex-col gap-6">
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block mb-3">Sizes</span>
+<div class="flex flex-wrap gap-2">
+<button class="px-3.5 py-1.5 font-label-caps text-label-caps bg-primary text-on-primary">XS</button>
+<button class="px-3.5 py-1.5 font-label-caps text-label-caps bg-surface-container hover:bg-surface-tint hover:text-on-primary">S</button>
+<button class="px-3.5 py-1.5 font-label-caps text-label-caps bg-surface-container hover:bg-surface-tint hover:text-on-primary">M</button>
+<button class="px-3.5 py-1.5 font-label-caps text-label-caps bg-surface-container hover:bg-surface-tint hover:text-on-primary">L</button>
+<button class="px-3.5 py-1.5 font-label-caps text-label-caps bg-surface-container hover:bg-surface-tint hover:text-on-primary">XL</button>
+</div>
+</div>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block mb-3">Material Matrix</span>
+<div class="flex flex-col gap-2 font-body-sm text-body-sm">
+<label class="flex items-center justify-between cursor-pointer">
+<span class="flex items-center gap-2"><input checked="" class="accent-primary" type="checkbox"/> Organic Linen</span>
+<span class="text-on-surface-variant font-label-caps text-xs">[48]</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer">
+<span class="flex items-center gap-2"><input class="accent-primary" type="checkbox"/> Japanese Silk</span>
+<span class="text-on-surface-variant font-label-caps text-xs">[32]</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer">
+<span class="flex items-center gap-2"><input class="accent-primary" type="checkbox"/> Double-Faced Wool</span>
+<span class="text-on-surface-variant font-label-caps text-xs">[26]</span>
+</label>
+<label class="flex items-center justify-between cursor-pointer">
+<span class="flex items-center gap-2"><input class="accent-primary" type="checkbox"/> Cashmere Wool</span>
+<span class="text-on-surface-variant font-label-caps text-xs">[12]</span>
+</label>
+</div>
+</div>
+<div>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant block mb-3">Color Palette</span>
+<div class="flex items-center gap-3">
+<button class="w-7 h-7 rounded-full bg-[#f6f5f1] ring-2 ring-primary ring-offset-2" title="Bone / Oat"></button>
+<button class="w-7 h-7 rounded-full bg-[#9b4420] ring-1 ring-surface-variant" title="Terracotta"></button>
+<button class="w-7 h-7 rounded-full bg-[#5d6355] ring-1 ring-surface-variant" title="Sage Olive"></button>
+<button class="w-7 h-7 rounded-full bg-[#1b1c1a] ring-1 ring-surface-variant" title="Obsidian"></button>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 border-t border-surface-variant flex gap-3">
+<button class="flex-1 py-3 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-wider">
+          Apply Filters (128)
+        </button>
+<button class="px-4 py-3 bg-surface-container font-label-caps text-label-caps uppercase tracking-wider text-on-surface" id="close-filter-drawer-btn">
+          Close
+        </button>
+</div>
+</div>
+</div>
+<!-- Inline Micro-Interactions Script -->
+<script>
+    (function() {
+      // 3-Col vs 4-Col Grid Toggle
+      const grid = document.getElementById('product-grid');
+      const btn3 = document.getElementById('view-3-col');
+      const btn4 = document.getElementById('view-4-col');
+
+      if (btn3 && btn4 && grid) {
+        btn3.addEventListener('click', () => {
+          grid.className = 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-300';
+          btn3.classList.add('bg-surface-container', 'text-on-surface');
+          btn3.classList.remove('text-on-surface-variant');
+          btn4.classList.remove('bg-surface-container', 'text-on-surface');
+          btn4.classList.add('text-on-surface-variant');
+        });
+
+        btn4.addEventListener('click', () => {
+          grid.className = 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 transition-all duration-300';
+          btn4.classList.add('bg-surface-container', 'text-on-surface');
+          btn4.classList.remove('text-on-surface-variant');
+          btn3.classList.remove('bg-surface-container', 'text-on-surface');
+          btn3.classList.add('text-on-surface-variant');
+        });
+      }
+
+      // Wishlist Heart Toggle
+      const wishlistBtns = document.querySelectorAll('.wishlist-btn');
+      wishlistBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const icon = btn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            const isFilled = icon.style.fontVariationSettings?.includes("'FILL' 1");
+            if (isFilled) {
+              icon.style.fontVariationSettings = "'FILL' 0";
+              icon.classList.remove('text-secondary');
+            } else {
+              icon.style.fontVariationSettings = "'FILL' 1";
+              icon.classList.add('text-secondary');
+            }
+          }
+        });
+      });
+
+      // Quick View Modal
+      const quickViewModal = document.getElementById('quick-view-modal');
+      const closeQuickView = document.getElementById('close-quick-view');
+      const quickViewScrim = document.getElementById('quick-view-scrim');
+      const quickViewButtons = document.querySelectorAll('.quick-view-btn');
+
+      const openModal = () => {
+        if (!quickViewModal) return;
+        quickViewModal.classList.remove('pointer-events-none', 'opacity-0');
+        quickViewModal.classList.add('pointer-events-auto', 'opacity-100');
+        const content = quickViewModal.querySelector('.relative');
+        if (content) {
+          content.classList.remove('scale-95');
+          content.classList.add('scale-100');
+        }
+      };
+
+      const closeModal = () => {
+        if (!quickViewModal) return;
+        quickViewModal.classList.add('pointer-events-none', 'opacity-0');
+        quickViewModal.classList.remove('pointer-events-auto', 'opacity-100');
+        const content = quickViewModal.querySelector('.relative');
+        if (content) {
+          content.classList.add('scale-95');
+          content.classList.remove('scale-100');
+        }
+      };
+
+      quickViewButtons.forEach(b => b.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openModal();
+      }));
+
+      if (closeQuickView) closeQuickView.addEventListener('click', closeModal);
+      if (quickViewScrim) quickViewScrim.addEventListener('click', closeModal);
+
+      // Slide-Out Refinement Drawer
+      const filterDrawer = document.getElementById('filter-drawer-container');
+      const filterPanel = document.getElementById('filter-drawer-panel');
+      const toggleFilterBtn = document.getElementById('toggle-filter-drawer');
+      const closeFilterBtn = document.getElementById('close-filter-drawer');
+      const closeFilterAltBtn = document.getElementById('close-filter-drawer-btn');
+      const filterScrim = document.getElementById('filter-drawer-scrim');
+
+      const openFilterDrawer = () => {
+        if (!filterDrawer || !filterPanel) return;
+        filterDrawer.classList.remove('pointer-events-none', 'opacity-0');
+        filterDrawer.classList.add('pointer-events-auto', 'opacity-100');
+        filterPanel.classList.remove('translate-x-full');
+      };
+
+      const closeFilterDrawer = () => {
+        if (!filterDrawer || !filterPanel) return;
+        filterDrawer.classList.add('pointer-events-none', 'opacity-0');
+        filterDrawer.classList.remove('pointer-events-auto', 'opacity-100');
+        filterPanel.classList.add('translate-x-full');
+      };
+
+      if (toggleFilterBtn) toggleFilterBtn.addEventListener('click', openFilterDrawer);
+      if (closeFilterBtn) closeFilterBtn.addEventListener('click', closeFilterDrawer);
+      if (closeFilterAltBtn) closeFilterAltBtn.addEventListener('click', closeFilterDrawer);
+      if (filterScrim) filterScrim.addEventListener('click', closeFilterDrawer);
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-xl"><div class="max-w-[1440px] mx-auto px-margin pt-space-xl pb-space-lg"><div class="bg-surface p-space-xl mb-space-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="max-w-xl"><span class="font-label-caps text-label-caps text-secondary tracking-widest block mb-space-xs">PRIVATE ARCHIVES</span><h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">First access to curations &amp; seasonal drops</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Receive deliberate editorial notes, member-exclusive atelier invites, and advance lookbooks.</p></div><form class="w-full md:w-auto flex flex-col sm:flex-row gap-space-xs items-stretch"><input class="px-space-md py-3 bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none min-w-[280px]" placeholder="Enter your email address" type="email"/><button class="px-space-lg py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest hover:bg-surface-container-highest hover:text-on-surface transition-colors uppercase" type="submit">Subscribe</button></form></div><div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg py-space-lg"><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">SHOP</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="apparel" href="#">Apparel</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="living" href="#">Living &amp; Objects</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="footwear" href="#">Footwear</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="accessories" href="#">Leather Accessories</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="gift-cards" href="#">Digital Vouchers</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">CLIENT SERVICE</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="concierge" href="#">Atelier Concierge</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="shipping" href="#">Complimentary Shipping</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="returns" href="#">Exchanges &amp; Returns</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="order-tracking" href="#">Order Tracking</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="garment-care" href="#">Garment Care Guide</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">COMPANY</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="atelier-story" href="#">The Atelier Story</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="sustainability" href="#">Sustainability Charter</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="press" href="#">Press &amp; Editorials</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="careers" href="#">Careers</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="archive" href="#">Seasonal Archives</a></div><div class="flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-on-surface tracking-widest mb-space-xs">REPOSITORIES</span><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-xs">Curated from Paris, Kyoto, and New York. Pieces produced in numbered batches.</p><div class="flex items-center gap-space-xs text-on-surface-variant pt-space-xs"><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">VISA</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">MASTERCARD</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">AMEX</span><span class="font-label-caps text-[10px] bg-surface-container px-2 py-1">APPLE PAY</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-sm text-label-sm"><div class="flex items-center gap-space-lg"><span class="font-body-sm text-body-sm">© 2025 AURA Living &amp; Apparel Inc. All rights reserved.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="terms" href="#">Terms of Service</a><div class="flex items-center gap-space-xs ml-space-sm"><span class="cursor-pointer text-on-surface">United States (USD $)</span><span class="text-outline-variant">•</span><span class="cursor-pointer hover:text-on-surface transition-colors">English (US)</span></div></div></div></div></footer></body></html>
